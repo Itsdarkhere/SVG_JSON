@@ -30,13 +30,15 @@ export default function Home() {
         const parsedResult: RectData[] = [];
 
         rects.forEach((rect) => {
-          const cx = parseFloat(rect.getAttribute('x') || '0');
-          const cy = parseFloat(rect.getAttribute('y') || '0');
-          const w = parseFloat(rect.getAttribute('width') || '0');
-          const h = parseFloat(rect.getAttribute('height') || '0');
-          const transform = rect.getAttribute('transform') || '';
-
-          parsedResult.push({ cx, cy, w, h, transform, selected: false, id: 0 });
+          const id = rect.getAttribute('id');
+          if (id && id.startsWith('Seat')) {
+            const cx = parseFloat(rect.getAttribute('x') || '0');
+            const cy = parseFloat(rect.getAttribute('y') || '0');
+            const w = parseFloat(rect.getAttribute('width') || '0');
+            const h = parseFloat(rect.getAttribute('height') || '0');
+            const transform = rect.getAttribute('transform') || '';
+            parsedResult.push({ cx, cy, w, h, transform, selected: false, id: 0 });
+          }
         });
 
         setResult(parsedResult);
