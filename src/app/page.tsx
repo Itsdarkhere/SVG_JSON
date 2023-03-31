@@ -1,90 +1,61 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+'use client'
 import styles from './page.module.css'
+import { useState } from 'react';
 
-const inter = Inter({ subsets: ['latin'] })
+interface RectData {
+  cx: number;
+  cy: number;
+  w: number;
+  h: number;
+  transform: string;
+  selected: boolean;
+  id: number;
+}
 
 export default function Home() {
+  const [result, setResult] = useState<RectData[]>([]);
+
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files ? event.target.files[0] : null;
+
+    if (file) {
+      const reader = new FileReader();
+      reader.readAsText(file);
+      reader.onload = (e: ProgressEvent<FileReader>) => {
+        const svgString = e.target?.result as string;
+        const parser = new DOMParser();
+        const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
+
+        const rects = svgDoc.querySelectorAll('rect');
+        const parsedResult: RectData[] = [];
+
+        rects.forEach((rect) => {
+          const cx = parseFloat(rect.getAttribute('x') || '0');
+          const cy = parseFloat(rect.getAttribute('y') || '0');
+          const w = parseFloat(rect.getAttribute('width') || '0');
+          const h = parseFloat(rect.getAttribute('height') || '0');
+          const transform = rect.getAttribute('transform') || '';
+
+          parsedResult.push({ cx, cy, w, h, transform, selected: false, id: 0 });
+        });
+
+        setResult(parsedResult);
+      };
+    }
+  };
+
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+      <div className={styles.mainTwo}>
+        <p>Upload an SVG file</p>
+        <input
+          type="file"
+          name="svgFile"
+          id="svgFile"
+          accept=".svg"
+          onChange={handleFileChange}
         />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <pre>{JSON.stringify(result, null, 2)}</pre>
       </div>
     </main>
   )
