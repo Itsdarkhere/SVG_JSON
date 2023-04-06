@@ -9,11 +9,17 @@ interface RectData {
   h: number;
   transform: string;
   selected: boolean;
-  id: number;
+  id: string;
+}
+
+interface SectionData {
+  id: string,
+  path: string | null;
+  seats: RectData[],
 }
 
 export default function Home() {
-  const [result, setResult] = useState<RectData[]>([]);
+  const [result, setResult] = useState<SectionData[]>([]);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files ? event.target.files[0] : null;
@@ -26,18 +32,30 @@ export default function Home() {
         const parser = new DOMParser();
         const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
 
-        const rects = svgDoc.querySelectorAll('rect');
-        const parsedResult: RectData[] = [];
+        const sections = svgDoc.querySelectorAll('g[id^="Section-"]');
+        const parsedResult: SectionData[] = [];
 
-        rects.forEach((rect) => {
-          const id = rect.getAttribute('id');
-          if (id && id.startsWith('seat')) {
-            const cx = parseFloat(rect.getAttribute('x') || '0');
-            const cy = parseFloat(rect.getAttribute('y') || '0');
-            const w = parseFloat(rect.getAttribute('width') || '0');
-            const h = parseFloat(rect.getAttribute('height') || '0');
-            const transform = rect.getAttribute('transform') || '';
-            parsedResult.push({ cx, cy, w, h, transform, selected: false, id: 0 });
+        sections.forEach((section) => {
+          const sectionId = section.getAttribute('id');
+          const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
+          const sectionSeats: RectData[] = [];
+
+          if (sectionId) {
+            const seatRects = section.querySelectorAll('rect[id^="seat-"]');
+
+            seatRects.forEach((rect) => {
+              const id = rect.getAttribute('id');
+              if (id) {
+                const cx = parseFloat(rect.getAttribute('x') || '0');
+                const cy = parseFloat(rect.getAttribute('y') || '0');
+                const w = parseFloat(rect.getAttribute('width') || '0');
+                const h = parseFloat(rect.getAttribute('height') || '0');
+                const transform = rect.getAttribute('transform') || '';
+                sectionSeats.push({ cx, cy, w, h, transform, selected: false, id: id });
+              }
+            });
+
+            parsedResult.push({ id: sectionId, path: sectionPath, seats: sectionSeats });
           }
         });
 
@@ -57,7 +75,7 @@ export default function Home() {
           accept=".svg"
           onChange={handleFileChange}
         />
-        <pre>{JSON.stringify(result, null, 2)}</pre>
+        <pre style={{maxWidth: 800, overflow: 'hidden'}}>{JSON.stringify(result, null, 2)}</pre>
       </div>
     </main>
   )
