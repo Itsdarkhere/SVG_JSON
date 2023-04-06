@@ -31,7 +31,7 @@ export default function Home() {
 
         rects.forEach((rect) => {
           const id = rect.getAttribute('id');
-          if (id && id.startsWith('Seat')) {
+          if (id && id.startsWith('seat')) {
             const cx = parseFloat(rect.getAttribute('x') || '0');
             const cy = parseFloat(rect.getAttribute('y') || '0');
             const w = parseFloat(rect.getAttribute('width') || '0');
