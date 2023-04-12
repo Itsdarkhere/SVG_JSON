@@ -7,62 +7,162 @@ interface RectData {
   cy: number;
   w: number;
   h: number;
-  transform: string;
   selected: boolean;
-  id: string;
+  seatId: string;
 }
 
 interface SectionData {
-  id: string,
+  sectionId: string | undefined,
   path: string | null;
-  seats: RectData[],
+  rows: RowData[],
+}
+
+interface RowData {
+  rowId: string;
+  row: RectData[];
+  ticket: {
+    availableCount: number;
+    cost: number;
+    description: string;
+    eventId: string;
+    fee: number;
+    generalAdmission: boolean;
+    hide_description: boolean;
+    hide_sale_dates: boolean;
+    id: number;
+    isActive: boolean;
+    locked: null;
+    maximum_quantity: number;
+    minimum_quantity: number;
+    name: string;
+    on_sale_status: string;
+    pricing: {
+      feesWithoutTax: number;
+      listing: boolean;
+      paymentProcessingFee: number;
+      serviceFees: number;
+      taxPerTicket: number;
+      ticketCost: number;
+      ticketCostWithFees: number;
+      ticketCostWithFeesAndTax: number;
+      ticketFacilityFee: number;
+      ticketName: string;
+      ticketType: string;
+      totalFees: number;
+    };
+    resale: boolean;
+    royalty: number;
+    sales_end: string;
+    sales_start: string;
+    slug: null;
+    ticketGroup: string;
+    uuid: string;
+  };
 }
 
 export default function Home() {
   const [result, setResult] = useState<SectionData[]>([]);
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChangeTwo = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files ? event.target.files[0] : null;
 
-    if (file) {
-      const reader = new FileReader();
-      reader.readAsText(file);
-      reader.onload = (e: ProgressEvent<FileReader>) => {
-        const svgString = e.target?.result as string;
-        const parser = new DOMParser();
-        const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
+      if (file) {
+        const reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = (e: ProgressEvent<FileReader>) => {
+          const svgString = e.target?.result as string;
+          const parser = new DOMParser();
+          const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
 
-        const sections = svgDoc.querySelectorAll('g[id^="Section-"]');
-        const parsedResult: SectionData[] = [];
+          const sections = svgDoc.querySelectorAll('g[id^="Sec-"]');
+          const parsedResult: SectionData[] = [];
 
-        sections.forEach((section) => {
-          const sectionId = section.getAttribute('id');
-          const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
-          const sectionSeats: RectData[] = [];
+          sections.forEach((section, i) => {
+            const sectionNumber = section.getAttribute('id')?.split('-')[1];
+            const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
+            const rows = section.querySelectorAll(`g[id^="sec-${sectionNumber}-row-"]`);
+            const sectionSeats: RowData[] = [];
 
-          if (sectionId) {
-            const seatRects = section.querySelectorAll('rect[id^="seat-"]');
+            rows.forEach((row, ii) => {
+              const rowNumber = row.getAttribute('id')?.split('-')[3];
+              const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
+              let currentRow: RectData[] = [];
+              console.log(seats);
 
-            seatRects.forEach((rect) => {
-              const id = rect.getAttribute('id');
-              if (id) {
-                const cx = parseFloat(rect.getAttribute('x') || '0');
-                const cy = parseFloat(rect.getAttribute('y') || '0');
-                const w = parseFloat(rect.getAttribute('width') || '0');
-                const h = parseFloat(rect.getAttribute('height') || '0');
-                const transform = rect.getAttribute('transform') || '';
-                sectionSeats.push({ cx, cy, w, h, transform, selected: false, id: id });
-              }
-            });
+              seats.forEach((seat, iii) => {
+                const seatNumber = seat.getAttribute('id')?.split('-')[5];
+                console.log("SEAT: ", seatNumber);
+                const id = seat.getAttribute('id');
+                if (id) {
+                  const cx = parseFloat(seat.getAttribute('x') || '0');
+                  const cy = parseFloat(seat.getAttribute('y') || '0');
+                  const w = parseFloat(seat.getAttribute('width') || '0');
+                  const h = parseFloat(seat.getAttribute('height') || '0');
+                  currentRow.push({ cx, cy, w, h, selected: false, seatId: id });
+                }
+              })
+              let rowId = `${rowNumber}`;
+              let ticket = {
+                availableCount: 12,
+                cost: 60,
+                description: 'VJX IS SEXY',
+                eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
+                fee: 2,
+                generalAdmission: true,
+                hide_description: false,
+                hide_sale_dates: false,
+                id: sectionSeats.length + 1,
+                isActive: true,
+                locked: null,
+                maximum_quantity: 3,
+                minimum_quantity: 1,
+                name: '',
+                on_sale_status: 'available',
+                pricing: {
+                  feesWithoutTax: 5.3,
+                  listing: false,
+                  paymentProcessingFee: 3.3,
+                  serviceFees: 0,
+                  taxPerTicket: 5.52,
+                  ticketCost: 60,
+                  ticketCostWithFees: 62,
+                  ticketCostWithFeesAndTax: 70.82,
+                  ticketFacilityFee: 2,
+                  ticketName: rowId,
+                  ticketType: 'Standard Ticket',
+                  totalFees: 10.82,
+                },
+                resale: false,
+                royalty: 5,
+                sales_end: '2023-04-09T02:00:00.000Z',
+                sales_start: '2023-01-12T15:30:00.000Z',
+                slug: null,
+                ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
+                uuid: 'b9261819-a184-4a95-a22d-337df5154'
+              };
 
-            parsedResult.push({ id: sectionId, path: sectionPath, seats: sectionSeats });
-          }
-        });
-
+              sectionSeats.push({ rowId, row: currentRow, ticket });
+              currentRow = [];
+            })
+            parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats });
+          });
         setResult(parsedResult);
-      };
+      }
     }
   };
+
+  const copyJson = () => {
+    navigator.clipboard.writeText(JSON.stringify(result));
+  }
+
+  const saveJSON = async () => {
+    const formData = new FormData();
+    formData.append('json', JSON.stringify(result));
+    await fetch("/api/save", {
+      method: 'POST',
+      body: formData,
+    });
+  }
 
   return (
     <main className={styles.main}>
@@ -73,8 +173,10 @@ export default function Home() {
           name="svgFile"
           id="svgFile"
           accept=".svg"
-          onChange={handleFileChange}
+          onChange={handleChangeTwo}
         />
+        <button onClick={copyJson}>Copy</button>
+        {/* <button onClick={saveJSON}>Save</button> */}
         <pre style={{maxWidth: 800, overflow: 'hidden'}}>{JSON.stringify(result, null, 2)}</pre>
       </div>
     </main>
