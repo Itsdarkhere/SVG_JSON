@@ -20,6 +20,7 @@ interface SectionData {
 interface RowData {
   rowId: string;
   row: RectData[];
+  section: string | undefined,
   ticket: {
     availableCount: number;
     cost: number;
@@ -29,7 +30,7 @@ interface RowData {
     generalAdmission: boolean;
     hide_description: boolean;
     hide_sale_dates: boolean;
-    id: number;
+    id: string | undefined;
     isActive: boolean;
     locked: null;
     maximum_quantity: number;
@@ -87,11 +88,8 @@ export default function Home() {
               const rowNumber = row.getAttribute('id')?.split('-')[3];
               const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
               let currentRow: RectData[] = [];
-              console.log(seats);
 
               seats.forEach((seat, iii) => {
-                const seatNumber = seat.getAttribute('id')?.split('-')[5];
-                console.log("SEAT: ", seatNumber);
                 const id = seat.getAttribute('id');
                 if (id) {
                   const cx = parseFloat(seat.getAttribute('x') || '0');
@@ -101,6 +99,7 @@ export default function Home() {
                   currentRow.push({ cx, cy, w, h, selected: false, seatId: id });
                 }
               })
+
               let rowId = `${rowNumber}`;
               let ticket = {
                 availableCount: 12,
@@ -111,7 +110,7 @@ export default function Home() {
                 generalAdmission: true,
                 hide_description: false,
                 hide_sale_dates: false,
-                id: sectionSeats.length + 1,
+                id: rowNumber,
                 isActive: true,
                 locked: null,
                 maximum_quantity: 3,
@@ -128,7 +127,7 @@ export default function Home() {
                   ticketCostWithFees: 62,
                   ticketCostWithFeesAndTax: 70.82,
                   ticketFacilityFee: 2,
-                  ticketName: rowId,
+                  ticketName: `Section ${sectionNumber} Row ${rowId}`,
                   ticketType: 'Standard Ticket',
                   totalFees: 10.82,
                 },
@@ -141,7 +140,7 @@ export default function Home() {
                 uuid: 'b9261819-a184-4a95-a22d-337df5154'
               };
 
-              sectionSeats.push({ rowId, row: currentRow, ticket });
+              sectionSeats.push({ rowId, row: currentRow, section: sectionNumber, ticket });
               currentRow = [];
             })
             parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats });
