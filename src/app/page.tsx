@@ -14,6 +14,7 @@ interface RectData {
 interface SectionData {
   sectionId: string | undefined,
   path: string | null;
+  zoomable: boolean;
   rows: RowData[],
 }
 
@@ -80,75 +81,86 @@ export default function Home() {
 
           sections.forEach((section, i) => {
             const sectionNumber = section.getAttribute('id')?.split('-')[1];
+            const zoomable = section.getAttribute('class');
+
+            // Check if section is zoomable, if yes then we need seats etc, otherwise we dont
+            // In that case we add ticket directly to section
+            let isZoomable = false;
+            if (zoomable === 'YZ') {
+              isZoomable = true;
+            }
+
             const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
             const rows = section.querySelectorAll(`g[id^="sec-${sectionNumber}-row-"]`);
             const sectionSeats: RowData[] = [];
 
-            rows.forEach((row, ii) => {
-              const rowNumber = row.getAttribute('id')?.split('-')[3];
-              const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
-              let currentRow: RectData[] = [];
-
-              seats.forEach((seat, iii) => {
-                const id = seat.getAttribute('id');
-                if (id) {
-                  const cx = parseFloat(seat.getAttribute('x') || '0');
-                  const cy = parseFloat(seat.getAttribute('y') || '0');
-                  const w = parseFloat(seat.getAttribute('width') || '0');
-                  const h = parseFloat(seat.getAttribute('height') || '0');
-                  currentRow.push({ cx, cy, w, h, selected: false, seatId: id });
+            if (isZoomable) {
+              rows.forEach((row, ii) => {
+                const rowNumber = row.getAttribute('id')?.split('-')[3];
+                const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
+                let currentRow: RectData[] = [];
+  
+                seats.forEach((seat, iii) => {
+                  const id = seat.getAttribute('id');
+                  if (id) {
+                    const cx = parseFloat(seat.getAttribute('x') || '0');
+                    const cy = parseFloat(seat.getAttribute('y') || '0');
+                    const w = parseFloat(seat.getAttribute('width') || '0');
+                    const h = parseFloat(seat.getAttribute('height') || '0');
+                    currentRow.push({ cx, cy, w, h, selected: false, seatId: id });
+                  }
+                })
+                let rowTargetSeat = undefined;
+                if (currentRow.length !== 0) {
+                  let middleIndex = Math.floor(currentRow.length / 2); // Middle is of the row, used to target tooltip
+                  rowTargetSeat = currentRow[middleIndex].seatId;
                 }
+  
+                let rowId = `${rowNumber}`;
+                let ticket = {
+                  availableCount: 12,
+                  cost: 60,
+                  description: 'VJX IS SEXY',
+                  eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
+                  fee: 2,
+                  generalAdmission: true,
+                  hide_description: false,
+                  hide_sale_dates: false,
+                  id: rowNumber,
+                  isActive: true,
+                  locked: null,
+                  maximum_quantity: 3,
+                  minimum_quantity: 1,
+                  name: '',
+                  on_sale_status: 'available',
+                  pricing: {
+                    feesWithoutTax: 5.3,
+                    listing: false,
+                    paymentProcessingFee: 3.3,
+                    serviceFees: 0,
+                    taxPerTicket: 5.52,
+                    ticketCost: 60,
+                    ticketCostWithFees: 62,
+                    ticketCostWithFeesAndTax: 70.82,
+                    ticketFacilityFee: 2,
+                    ticketName: `Section ${sectionNumber} Row ${rowId}`,
+                    ticketType: 'Standard Ticket',
+                    totalFees: 10.82,
+                  },
+                  resale: false,
+                  royalty: 5,
+                  sales_end: '2023-04-09T02:00:00.000Z',
+                  sales_start: '2023-01-12T15:30:00.000Z',
+                  slug: null,
+                  ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
+                  uuid: 'b9261819-a184-4a95-a22d-337df5154'
+                };
+  
+                sectionSeats.push({ rowId, row: currentRow, rowTarget: rowTargetSeat, ticket });
+                currentRow = [];
               })
-              let rowTargetSeat = undefined;
-              if (currentRow.length !== 0) {
-                let middleIndex = Math.floor(currentRow.length / 2); // Middle is of the row, used to target tooltip
-                rowTargetSeat = currentRow[middleIndex].seatId;
-              }
-
-              let rowId = `${rowNumber}`;
-              let ticket = {
-                availableCount: 12,
-                cost: 60,
-                description: 'VJX IS SEXY',
-                eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
-                fee: 2,
-                generalAdmission: true,
-                hide_description: false,
-                hide_sale_dates: false,
-                id: rowNumber,
-                isActive: true,
-                locked: null,
-                maximum_quantity: 3,
-                minimum_quantity: 1,
-                name: '',
-                on_sale_status: 'available',
-                pricing: {
-                  feesWithoutTax: 5.3,
-                  listing: false,
-                  paymentProcessingFee: 3.3,
-                  serviceFees: 0,
-                  taxPerTicket: 5.52,
-                  ticketCost: 60,
-                  ticketCostWithFees: 62,
-                  ticketCostWithFeesAndTax: 70.82,
-                  ticketFacilityFee: 2,
-                  ticketName: `Section ${sectionNumber} Row ${rowId}`,
-                  ticketType: 'Standard Ticket',
-                  totalFees: 10.82,
-                },
-                resale: false,
-                royalty: 5,
-                sales_end: '2023-04-09T02:00:00.000Z',
-                sales_start: '2023-01-12T15:30:00.000Z',
-                slug: null,
-                ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
-                uuid: 'b9261819-a184-4a95-a22d-337df5154'
-              };
-
-              sectionSeats.push({ rowId, row: currentRow, rowTarget: rowTargetSeat, ticket });
-              currentRow = [];
-            })
-            parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats });
+            }
+            parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats, zoomable: isZoomable,  });
           });
         setResult(parsedResult);
       }
