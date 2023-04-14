@@ -15,14 +15,18 @@ interface SectionData {
   sectionId: string | undefined,
   path: string | null;
   zoomable: boolean;
-  rows: RowData[],
+  sectionTicket: Ticket | null;
+  rows: RowData[];
 }
 
 interface RowData {
   rowId: string;
   row: RectData[];
   rowTarget: string | undefined,
-  ticket: {
+  ticket: Ticket;
+}
+
+interface Ticket {
     availableCount: number;
     cost: number;
     description: string;
@@ -59,7 +63,6 @@ interface RowData {
     slug: null;
     ticketGroup: string;
     uuid: string;
-  };
 }
 
 export default function Home() {
@@ -160,7 +163,50 @@ export default function Home() {
                 currentRow = [];
               })
             }
-            parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats, zoomable: isZoomable,  });
+
+            let sectionTicket = null;
+            if (!isZoomable) {
+              sectionTicket = {
+                availableCount: 12,
+                cost: 60,
+                description: 'VJX IS SEXY',
+                eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
+                fee: 2,
+                generalAdmission: true,
+                hide_description: false,
+                hide_sale_dates: false,
+                id: sectionNumber,
+                isActive: true,
+                locked: null,
+                maximum_quantity: 3,
+                minimum_quantity: 1,
+                name: '',
+                on_sale_status: 'available',
+                pricing: {
+                  feesWithoutTax: 5.3,
+                  listing: false,
+                  paymentProcessingFee: 3.3,
+                  serviceFees: 0,
+                  taxPerTicket: 5.52,
+                  ticketCost: 60,
+                  ticketCostWithFees: 62,
+                  ticketCostWithFeesAndTax: 70.82,
+                  ticketFacilityFee: 2,
+                  ticketName: `Section ${sectionNumber}`,
+                  ticketType: 'Standard Ticket',
+                  totalFees: 10.82,
+                },
+                resale: false,
+                royalty: 5,
+                sales_end: '2023-04-09T02:00:00.000Z',
+                sales_start: '2023-01-12T15:30:00.000Z',
+                slug: null,
+                ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
+                uuid: 'b9261819-a184-4a95-a22d-337df5154'
+              }
+            }
+            console.log(sectionTicket);
+            parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats, zoomable: isZoomable, sectionTicket: sectionTicket  });
           });
         setResult(parsedResult);
       }
