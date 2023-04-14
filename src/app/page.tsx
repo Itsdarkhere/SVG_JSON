@@ -20,7 +20,7 @@ interface SectionData {
 interface RowData {
   rowId: string;
   row: RectData[];
-  section: string | undefined,
+  rowTarget: string | undefined,
   ticket: {
     availableCount: number;
     cost: number;
@@ -99,6 +99,11 @@ export default function Home() {
                   currentRow.push({ cx, cy, w, h, selected: false, seatId: id });
                 }
               })
+              let rowTargetSeat = undefined;
+              if (currentRow.length !== 0) {
+                let middleIndex = Math.floor(currentRow.length / 2); // Middle is of the row, used to target tooltip
+                rowTargetSeat = currentRow[middleIndex].seatId;
+              }
 
               let rowId = `${rowNumber}`;
               let ticket = {
@@ -140,7 +145,7 @@ export default function Home() {
                 uuid: 'b9261819-a184-4a95-a22d-337df5154'
               };
 
-              sectionSeats.push({ rowId, row: currentRow, section: sectionNumber, ticket });
+              sectionSeats.push({ rowId, row: currentRow, rowTarget: rowTargetSeat, ticket });
               currentRow = [];
             })
             parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats });
