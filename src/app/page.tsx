@@ -15,6 +15,14 @@ interface SectionData {
   sectionId: string | undefined,
   path: string | null;
   zoomable: boolean;
+  fill: string | null,
+  stroke: string | null,
+  strokeWidth: string | null,
+  identifier: {
+    path: string | null;
+    fill: string | null;
+    opacity: string | null;
+  },
   sectionTicket: Ticket | null;
   rows: RowData[];
 }
@@ -85,6 +93,9 @@ export default function Home() {
           sections.forEach((section, i) => {
             const sectionNumber = section.getAttribute('id')?.split('-')[1];
             const zoomable = section.getAttribute('class');
+            const fill = section.getAttribute('fill');
+            const stroke = section.getAttribute('stroke');
+            const strokeWidth = section.getAttribute('stroke-width');
 
             // Check if section is zoomable, if yes then we need seats etc, otherwise we dont
             // In that case we add ticket directly to section
@@ -95,6 +106,14 @@ export default function Home() {
 
             const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
             const rows = section.querySelectorAll(`g[id^="sec-${sectionNumber}-row-"]`);
+
+            // Identifier is like the text above a section
+            const identifier = section.querySelector(`g[id^="identifier"]`);
+            const identifierText = identifier?.querySelector('path');
+            const identifierTextPath = identifierText?.getAttribute('d') || null;
+            const identifierTextFill = identifierText?.getAttribute('fill') || null;
+            const identifierTextOpacity = identifierText?.getAttribute('fill-opacity') || null;
+
             const sectionSeats: RowData[] = [];
 
             if (isZoomable) {
@@ -205,8 +224,19 @@ export default function Home() {
                 uuid: 'b9261819-a184-4a95-a22d-337df5154'
               }
             }
-            console.log(sectionTicket);
-            parsedResult.push({ sectionId: sectionNumber, path: sectionPath, rows: sectionSeats, zoomable: isZoomable, sectionTicket: sectionTicket  });
+            parsedResult.push({ 
+              sectionId: sectionNumber, 
+              path: sectionPath, 
+              rows: sectionSeats, 
+              zoomable: isZoomable, 
+              sectionTicket: sectionTicket, 
+              fill, stroke, strokeWidth,
+              identifier: {
+                path: identifierTextPath,
+                fill: identifierTextFill,
+                opacity: identifierTextOpacity,
+              }  
+            });
           });
         setResult(parsedResult);
       }
