@@ -1,6 +1,7 @@
 'use client'
 import styles from './page.module.css'
 import { useState } from 'react';
+import { Inter } from 'next/font/google'
 
 interface RectData {
   cx: number;
@@ -10,6 +11,8 @@ interface RectData {
   selected: boolean;
   seatId: string;
 }
+
+const inter = Inter({ subsets: ['latin'] });
 
 interface SectionData {
   sectionId: string | undefined,
@@ -243,8 +246,31 @@ export default function Home() {
     }
   };
 
-  const copyJson = () => {
-    navigator.clipboard.writeText(JSON.stringify(result));
+  const getFoundSections = () => {
+    return (
+      result.map((sectionData, i) => {
+        const totalSeats = sectionData.rows.reduce((acc, row) => acc + row.row.length, 0);
+        return (
+          <div key={i} className={styles.secinfo}>
+            <p>SectionId: {sectionData.sectionId}</p>
+            <p>Section fill color: {sectionData.fill}</p>
+            <p>Section rows length: {sectionData.rows.length}</p>
+            <p>Is section zoomable: {JSON.stringify(sectionData.zoomable)}</p>
+            <p>Total seats in section: {totalSeats}</p>
+          </div>
+        )
+      })
+    )
+  }
+
+  const downloadJSON = () => {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(result));
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", "seatmap.json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
   }
 
   const saveJSON = async () => {
@@ -257,9 +283,9 @@ export default function Home() {
   }
 
   return (
-    <main className={styles.main}>
+    <main className={`${styles.main} ${inter.className}`}>
       <div className={styles.mainTwo}>
-        <p>Upload an SVG file</p>
+        <p>Choose an SVG</p>
         <input
           type="file"
           name="svgFile"
@@ -267,9 +293,17 @@ export default function Home() {
           accept=".svg"
           onChange={handleChangeTwo}
         />
-        <button onClick={copyJson}>Copy</button>
-        {/* <button onClick={saveJSON}>Save</button> */}
-        <pre style={{maxWidth: 800, overflow: 'hidden'}}>{JSON.stringify(result, null, 2)}</pre>
+        {result.length > 0 && <button className={styles.copybutton} onClick={downloadJSON}>Download result</button>}
+        <div className={styles.jsoninfo}>
+          JSON condensed information
+          <p className={styles.jsonexplainer}>Should have correct amount of sections, rows, seats, the right colors etc </p>
+        </div>
+        {getFoundSections()}
+        <div className={styles.jsoninfo}>
+          JSON entire result
+          <p className={styles.jsonexplainer}>If theres something weird in the &quot;condensed information&quot; you can have a closer look here</p>
+        </div>
+        <pre className={styles.jsonres}>{JSON.stringify(result, null, 2)}</pre>
       </div>
     </main>
   )

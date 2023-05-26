@@ -15,6 +15,47 @@
   gap: 20px;
   padding: 20px;
 }
+.copybutton {
+  height: 50px;
+  width: 175px;
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+}
+.secinfo {
+  background-color: azure;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.jsonres {
+  background-color: azure;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  max-width: 800px;
+  max-height: 1000px;
+  overflow: scroll;
+}
+.jsoninfo {
+  background-color: rgb(56, 83, 190);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.jsonexplainer {
+  padding-top: 5px;
+  color: rgb(229, 229, 229);
+  font-size: 14px;
+}
+.copybutton:active {
+  transform: scale(0.95);
+}
 .description {
   display: inherit;
   justify-content: inherit;
