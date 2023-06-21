@@ -3,16 +3,13 @@ import styles from './page.module.css'
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
 
-interface RectData {
-  cx: number;
-  cy: number;
-  w: number;
-  h: number;
-  selected: boolean;
-  seatId: string;
-}
-
 const inter = Inter({ subsets: ['latin'] });
+
+interface Data {
+  sections: { [key: string]: SectionData },
+  rows: { [key: string]: RowData },
+  seats: { [key: string]: SeatData },
+}
 
 interface SectionData {
   sectionId: string | undefined,
@@ -26,15 +23,26 @@ interface SectionData {
     fill: string | null;
     opacity: string | null;
   },
-  sectionTicket: Ticket | null;
-  rows: RowData[];
+  ticket: Ticket | null;
+  rows: string[];
 }
 
 interface RowData {
   rowId: string;
-  row: RectData[];
-  rowTarget: string | undefined,
+  sectionId: string,
+  seats: string[];
   ticket: Ticket;
+}
+
+interface SeatData {
+  cx: number;
+  cy: number;
+  w: number;
+  h: number;
+  selected: boolean;
+  seatId: string;
+  sectionId: string;
+  rowId: string;
 }
 
 interface Ticket {
@@ -77,9 +85,13 @@ interface Ticket {
 }
 
 export default function Home() {
-  const [result, setResult] = useState<SectionData[]>([]);
+  const [result, setResult] = useState<Data>({
+    sections: {},
+    rows: {},
+    seats: {},
+  });
 
-  const handleChangeTwo = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files ? event.target.files[0] : null;
 
       if (file) {
@@ -89,9 +101,14 @@ export default function Home() {
           const svgString = e.target?.result as string;
           const parser = new DOMParser();
           const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
-
           const sections = svgDoc.querySelectorAll('g[id^="Sec-"]');
-          const parsedResult: SectionData[] = [];
+
+          // Store stuff in these
+          const sectionData: { [key: string]: SectionData } = {};
+          const rowData: { [key: string]: RowData } = {};
+          const seatData: { [key: string]: SeatData } = {};
+          // RowNumber is unreliable, so create our own
+          let uniqueRowNumber = 0;
 
           sections.forEach((section, i) => {
             const sectionNumber = section.getAttribute('id')?.split('-')[1];
@@ -117,13 +134,17 @@ export default function Home() {
             const identifierTextFill = identifierText?.getAttribute('fill') || null;
             const identifierTextOpacity = identifierText?.getAttribute('fill-opacity') || null;
 
-            const sectionSeats: RowData[] = [];
+            const sectionRows: string[] = [];
 
             if (isZoomable) {
               rows.forEach((row, ii) => {
-                const rowNumber = row.getAttribute('id')?.split('-')[3];
-                const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
-                let currentRow: RectData[] = [];
+                uniqueRowNumber++;
+                // const rowNumber = row.getAttribute('id')?.split('-')[3];
+                console.log("ROWNUMBER: ", uniqueRowNumber)
+                const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${uniqueRowNumber}-seat-"]`);
+                let rowSeats: string[] = [];
+                if (uniqueRowNumber) sectionRows.push(uniqueRowNumber.toString());
+
   
                 seats.forEach((seat, iii) => {
                   const id = seat.getAttribute('id');
@@ -132,16 +153,12 @@ export default function Home() {
                     const cy = parseFloat(seat.getAttribute('y') || '0');
                     const w = parseFloat(seat.getAttribute('width') || '0');
                     const h = parseFloat(seat.getAttribute('height') || '0');
-                    currentRow.push({ cx, cy, w, h, selected: false, seatId: id });
+                    seatData[id] = { cx, cy, w, h, selected: false, seatId: id, sectionId: sectionNumber!, rowId: uniqueRowNumber.toString()! };
+                    rowSeats.push(id);
                   }
                 })
-                let rowTargetSeat = undefined;
-                if (currentRow.length !== 0) {
-                  let middleIndex = Math.floor(currentRow.length / 2); // Middle is of the row, used to target tooltip
-                  rowTargetSeat = currentRow[middleIndex].seatId;
-                }
   
-                let rowId = `${rowNumber}`;
+                let rowId = `${uniqueRowNumber}`;
                 let ticket = {
                   availableCount: 12,
                   cost: 60,
@@ -151,7 +168,7 @@ export default function Home() {
                   generalAdmission: true,
                   hide_description: false,
                   hide_sale_dates: false,
-                  id: rowNumber,
+                  id: uniqueRowNumber.toString(),
                   isActive: true,
                   locked: null,
                   maximum_quantity: 3,
@@ -181,8 +198,8 @@ export default function Home() {
                   uuid: 'b9261819-a184-4a95-a22d-337df5154'
                 };
   
-                sectionSeats.push({ rowId, row: currentRow, rowTarget: rowTargetSeat, ticket });
-                currentRow = [];
+                rowData[rowId] = { rowId, sectionId: sectionNumber!, seats: rowSeats, ticket };
+                rowSeats = [];
               })
             }
 
@@ -227,29 +244,36 @@ export default function Home() {
                 uuid: 'b9261819-a184-4a95-a22d-337df5154'
               }
             }
-            parsedResult.push({ 
+            sectionData[sectionNumber!] = { 
               sectionId: sectionNumber, 
               path: sectionPath, 
-              rows: sectionSeats, 
+              rows: sectionRows, 
               zoomable: isZoomable, 
-              sectionTicket: sectionTicket, 
+              ticket: sectionTicket, 
               fill, stroke, strokeWidth,
               identifier: {
                 path: identifierTextPath,
                 fill: identifierTextFill,
                 opacity: identifierTextOpacity,
               }  
-            });
+            }
           });
-        setResult(parsedResult);
+        setResult({
+          sections: sectionData,
+          rows: rowData,
+          seats: seatData,
+        });
       }
     }
   };
 
   const getFoundSections = () => {
     return (
-      result.map((sectionData, i) => {
-        const totalSeats = sectionData.rows.reduce((acc, row) => acc + row.row.length, 0);
+      Object.values(result.sections).map((sectionData, i) => {
+        const totalSeats = sectionData.rows.reduce((acc, rowId) => {
+          const row = result.rows[rowId];
+          return acc + row.seats.length;
+        }, 0);
         return (
           <div key={i} className={styles.secinfo}>
             <p>SectionId: {sectionData.sectionId}</p>
@@ -273,15 +297,6 @@ export default function Home() {
     downloadAnchorNode.remove();
   }
 
-  const saveJSON = async () => {
-    const formData = new FormData();
-    formData.append('json', JSON.stringify(result));
-    await fetch("/api/save", {
-      method: 'POST',
-      body: formData,
-    });
-  }
-
   return (
     <main className={`${styles.main} ${inter.className}`}>
       <div className={styles.mainTwo}>
@@ -291,9 +306,9 @@ export default function Home() {
           name="svgFile"
           id="svgFile"
           accept=".svg"
-          onChange={handleChangeTwo}
+          onChange={handleChange}
         />
-        {result.length > 0 && <button className={styles.copybutton} onClick={downloadJSON}>Download result</button>}
+        {Object.keys(result.sections).length > 0 && <button className={styles.copybutton} onClick={downloadJSON}>Download result</button>}
         <div className={styles.jsoninfo}>
           JSON condensed information
           <p className={styles.jsonexplainer}>Should have correct amount of sections, rows, seats, the right colors etc </p>
