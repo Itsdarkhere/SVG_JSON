@@ -139,9 +139,8 @@ export default function Home() {
             if (isZoomable) {
               rows.forEach((row, ii) => {
                 uniqueRowNumber++;
-                // const rowNumber = row.getAttribute('id')?.split('-')[3];
-                console.log("ROWNUMBER: ", uniqueRowNumber)
-                const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${uniqueRowNumber}-seat-"]`);
+                const rowNumber = row.getAttribute('id')?.split('-')[3];
+                const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
                 let rowSeats: string[] = [];
                 if (uniqueRowNumber) sectionRows.push(uniqueRowNumber.toString());
 
