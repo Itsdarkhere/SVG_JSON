@@ -30,6 +30,7 @@ interface SectionData {
 interface RowData {
   rowId: string;
   sectionId: string,
+  path: string | undefined;
   seats: string[];
   ticket: Ticket;
 }
@@ -197,7 +198,7 @@ export default function Home() {
                   uuid: 'b9261819-a184-4a95-a22d-337df5154'
                 };
   
-                rowData[rowId] = { rowId, sectionId: sectionNumber!, seats: rowSeats, ticket };
+                rowData[rowId] = { rowId, sectionId: sectionNumber!, seats: rowSeats, ticket, path: undefined };
                 rowSeats = [];
               })
             }
@@ -257,13 +258,59 @@ export default function Home() {
               }  
             }
           });
-        setResult({
+        // TODO add this as a check on the 'designer comments'
+        setRowArea({
           sections: sectionData,
           rows: rowData,
           seats: seatData,
         });
       }
     }
+  };
+
+  const setRowArea = (data: Data) => {
+    let updatedData = { ...data };
+
+    Object.values(updatedData.rows).forEach((row) => {
+        // Initialize arrays for storing corner points
+        let topPoints: {x: number, y: number}[] = [];
+        let bottomPoints: {x: number, y: number}[] = [];
+
+        // Extract and sort the seats based on their x and y values
+        const sortedSeatIds = row.seats.sort((a, b) => {
+            let aSeat = updatedData.seats[a];
+            let bSeat = updatedData.seats[b];
+            return aSeat.cx - bSeat.cx || aSeat.cy - bSeat.cy;
+        });
+
+        sortedSeatIds.forEach((seatId) => {
+            let seat = updatedData.seats[seatId];
+
+            // Store the top-left and top-right corners of each seat
+            topPoints.push({ x: seat.cx, y: seat.cy });
+            topPoints.push({ x: seat.cx + seat.w, y: seat.cy });
+
+            // Store the bottom-right and bottom-left corners of each seat (note the order is reversed)
+            bottomPoints.push({ x: seat.cx + seat.w, y: seat.cy + seat.h });
+            bottomPoints.push({ x: seat.cx, y: seat.cy + seat.h });
+        });
+
+        // Reverse the order of the bottomPoints array, so it goes from right to left
+        bottomPoints = bottomPoints.reverse();
+
+        // Create the path string
+        let path = topPoints
+            .concat(bottomPoints)
+            .map((point, i) => `${i === 0 ? "M" : "L"} ${point.x} ${point.y}`)
+            .join(" ");
+
+        // Close the path
+        path += " Z";
+
+        // Store the path in the row
+        row.path = path;
+    });
+    setResult(updatedData);
   };
 
   const getFoundSections = () => {
