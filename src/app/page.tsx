@@ -370,7 +370,7 @@ export default function Home() {
           JSON entire result
           <p className={styles.jsonexplainer}>If theres something weird in the &quot;condensed information&quot; you can have a closer look here</p>
         </div>
-        <Stage width={800} height={500} options={{backgroundColor: 0xeef1f5, eventMode: 'dynamic'}}>
+        <Stage width={800} height={500} options={{ backgroundColor: 0xeef1f5, eventMode: 'none' }}>
           <Viewport width={800} height={500}>
             <Sprite
               image="https://pixijs.io/pixi-react/img/bunny.png"

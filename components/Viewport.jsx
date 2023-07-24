@@ -12,28 +12,29 @@ const Viewport = (props) => {
 
 const PixiComponentViewport = PixiComponent("Viewport", {
   create: (props) => {
-    if (!("events" in props.app.renderer))
-      props.app.renderer.addSystem(EventSystem, "events");
+    // if (!("events" in props.app.renderer))
+    //   props.app.renderer.addSystem(EventSystem, "events");
+
     const { width, height } = props;
-    const events = new EventSystem(props.app.renderer.events);
+    const events = new EventSystem(props.app.renderer);
 		events.domElement = props.app.renderer.view;
   
     const viewport = new PixiViewport({
       screenWidth: width,
       screenHeight: height,
+      worldWidth: width,
+      worldHeight: height,
       ticker: props.app.ticker,
       events: events,
     });
 
-    // Add stuff we need to the viewport
     viewport
-      .wheel()
+      .drag().pinch().wheel()
       .clampZoom({minWidth: 100, maxWidth: width})
-      .drag()
-      .pinch()
       .decelerate();
+
     return viewport;
-  },
+  }
 });
 
 export default Viewport;
