@@ -12,6 +12,8 @@ const Viewport = (props) => {
 
 const PixiComponentViewport = PixiComponent("Viewport", {
   create: (props) => {
+    if (!("events" in props.app.renderer))
+      props.app.renderer.addSystem(EventSystem, "events");
     const { width, height } = props;
     const events = new EventSystem(props.app.renderer.events);
 		events.domElement = props.app.renderer.view;
