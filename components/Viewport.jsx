@@ -1,7 +1,8 @@
 'use client'
 import React from "react";
-import * as PIXI from "pixi.js";
+// import * as PIXI from "pixi.js";
 import { PixiComponent, useApp } from "@pixi/react";
+import { EventSystem } from "@pixi/events";
 import { Viewport as PixiViewport } from "pixi-viewport";
 
 const Viewport = (props) => {
@@ -11,19 +12,13 @@ const Viewport = (props) => {
 
 const PixiComponentViewport = PixiComponent("Viewport", {
   create: (props) => {
-    if (!("events" in props.app.renderer))
-      props.app.renderer.addSystem(PIXI.EventSystem, "events");
-
     const { width, height } = props;
-    const { ticker } = props.app;
-    const events = new PIXI.EventSystem(props.app.renderer);
+    const events = new EventSystem(props.app.renderer.events);
 		events.domElement = props.app.renderer.view;
   
     const viewport = new PixiViewport({
       screenWidth: width,
       screenHeight: height,
-      worldWidth: width,
-      worldHeight: height,
       ticker: props.app.ticker,
       events: events,
     });
@@ -31,6 +26,7 @@ const PixiComponentViewport = PixiComponent("Viewport", {
     // Add stuff we need to the viewport
     viewport
       .wheel()
+      .clampZoom({minWidth: 100, maxWidth: width})
       .drag()
       .pinch()
       .decelerate();
