@@ -1,0 +1,955 @@
+<svg width="7680" height="10240" viewBox="0 0 7680 10240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Map Frame">
+    <rect width="7680" height="10240" fill="white" />
+    <path id="Map BG" d="M7266.79 9804.08C6742.88 9895.44 5013.18 10180.5 3838.53 10180.5C2663.88 10180.5 934.178 9895.44 410.268 9804.08C342.848 9792.32 293.985 9733.74 293.985 9664.58L293.986 3554.09C293.986 3524.19 303.089 3495.39 320.275 3470.84C468.253 3259.49 1055.79 2406.15 1343.91 1773.43C1577.04 1261.47 1800.56 484.597 1887.3 169.001C1904.71 105.657 1962.05 61.6531 2027.21 61.6531L5649.85 61.6534C5715.01 61.6534 5772.35 105.657 5789.76 169.002C5876.5 484.598 6100.02 1261.47 6333.15 1773.43C6621.27 2406.15 7208.81 3259.49 7356.79 3470.84C7373.97 3495.39 7383.08 3524.19 7383.08 3554.09L7383.07 9664.58C7383.07 9733.74 7334.21 9792.32 7266.79 9804.08Z" fill="#F4F5F6" stroke="#E5E6EE" stroke-width="93.9342" />
+    <g id="Sec-1" classname="YZ">
+      <path id="BG" d="M1023.96 9266.21C1025.55 9295.43 1047.97 9318.96 1077.14 9321.37C1290.28 9338.99 2144.92 9407.42 2975.49 9442.67C2988.18 9443.21 2997.03 9430.25 2992.08 9418.56C2976.91 9382.7 2955.2 9329.06 2928.96 9257.68C2876.48 9114.93 2805.86 8901.23 2733.01 8616.89C2587.32 8048.2 2432.76 7196.99 2396.7 6065.69C2360.64 4934.48 2453.72 4068.49 2555.92 3485.03C2607.02 3193.3 2660.4 2972.21 2701.06 2823.92C2721.39 2749.77 2738.53 2693.82 2750.62 2656.35C2757.88 2633.82 2745.1 2609.55 2722.38 2602.95C2237.91 2462.25 1917.72 2276.52 1783.69 2206.83C1754.56 2191.68 1718.5 2202.54 1702.96 2231.47L740.989 3913.16C735.889 3922.66 733.501 3933.37 734.087 3944.13L1023.96 9266.21Z" fill="#FCFCFD" />
+      <g id="sec-1-row-1">
+        <rect id="sec-1-row-1-seat-06" x="2523.56" y="2605.63" width="90" height="90" rx="10" transform="rotate(13.53 2523.56 2605.63)" fill="#E6E8EC" />
+        <rect id="sec-1-row-1-seat-05" x="2382.09" y="2567.15" width="90" height="90" rx="10" transform="rotate(15.687 2382.09 2567.15)" fill="#E6E8EC" />
+        <rect id="sec-1-row-1-seat-04" x="2244.98" y="2521.58" width="90" height="90" rx="10" transform="rotate(19.23 2244.98 2521.58)" fill="#E6E8EC" />
+        <rect id="sec-1-row-1-seat-03" x="2113" y="2461.31" width="90" height="90" rx="10" transform="rotate(25.752 2113 2461.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-1-seat-02" x="1986.43" y="2391.6" width="90" height="90" rx="10" transform="rotate(29.295 1986.43 2391.6)" fill="#E6E8EC" />
+        <rect id="sec-1-row-1-seat-01" x="1860.9" y="2315.86" width="90" height="90" rx="10" transform="rotate(31.453 1860.9 2315.86)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-2">
+        <rect id="sec-1-row-2-seat-06" x="2437.56" y="2801.63" width="90" height="90" rx="10" transform="rotate(13.53 2437.56 2801.63)" fill="#E6E8EC" />
+        <rect id="sec-1-row-2-seat-05" x="2296.09" y="2763.15" width="90" height="90" rx="10" transform="rotate(15.687 2296.09 2763.15)" fill="#E6E8EC" />
+        <rect id="sec-1-row-2-seat-04" x="2158.98" y="2717.58" width="90" height="90" rx="10" transform="rotate(19.23 2158.98 2717.58)" fill="#E6E8EC" />
+        <rect id="sec-1-row-2-seat-03" x="2027" y="2657.31" width="90" height="90" rx="10" transform="rotate(25.752 2027 2657.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-2-seat-02" x="1900.43" y="2587.6" width="90" height="90" rx="10" transform="rotate(29.295 1900.43 2587.6)" fill="#E6E8EC" />
+        <rect id="sec-1-row-2-seat-01" x="1774.9" y="2511.86" width="90" height="90" rx="10" transform="rotate(31.453 1774.9 2511.86)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-3">
+        <rect id="sec-1-row-3-seat-06" x="2351.56" y="2997.63" width="90" height="90" rx="10" transform="rotate(13.53 2351.56 2997.63)" fill="#E6E8EC" />
+        <rect id="sec-1-row-3-seat-05" x="2210.09" y="2959.15" width="90" height="90" rx="10" transform="rotate(15.687 2210.09 2959.15)" fill="#E6E8EC" />
+        <rect id="sec-1-row-3-seat-04" x="2072.98" y="2913.58" width="90" height="90" rx="10" transform="rotate(19.23 2072.98 2913.58)" fill="#E6E8EC" />
+        <rect id="sec-1-row-3-seat-03" x="1941" y="2853.31" width="90" height="90" rx="10" transform="rotate(25.752 1941 2853.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-3-seat-02" x="1814.43" y="2783.6" width="90" height="90" rx="10" transform="rotate(29.295 1814.43 2783.6)" fill="#E6E8EC" />
+        <rect id="sec-1-row-3-seat-01" x="1688.9" y="2707.86" width="90" height="90" rx="10" transform="rotate(31.453 1688.9 2707.86)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-4">
+        <rect id="sec-1-row-4-seat-08" x="2407.49" y="3227.15" width="90" height="90" rx="10" transform="rotate(11.278 2407.49 3227.15)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-07" x="2265.56" y="3193.63" width="90" height="90" rx="10" transform="rotate(13.53 2265.56 3193.63)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-06" x="2124.09" y="3155.15" width="90" height="90" rx="10" transform="rotate(15.687 2124.09 3155.15)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-05" x="1986.98" y="3109.58" width="90" height="90" rx="10" transform="rotate(19.23 1986.98 3109.58)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-04" x="1855" y="3049.31" width="90" height="90" rx="10" transform="rotate(25.752 1855 3049.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-03" x="1728.86" y="2979.48" width="90" height="90" rx="10" transform="rotate(29.7 1728.86 2979.48)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-02" x="1601.16" y="2912" width="90" height="90" rx="10" transform="rotate(28.654 1601.16 2912)" fill="#E6E8EC" />
+        <rect id="sec-1-row-4-seat-01" x="1475.76" y="2843" width="90" height="90" rx="10" transform="rotate(29.825 1475.76 2843)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-5">
+        <rect id="sec-1-row-5-seat-08" x="2348.86" y="3445.92" width="90" height="90" rx="10" transform="rotate(21.75 2348.86 3445.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-07" x="2201.86" y="3405.92" width="90" height="90" rx="10" transform="rotate(21.75 2201.86 3405.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-06" x="2055.86" y="3359.92" width="90" height="90" rx="10" transform="rotate(21.75 2055.86 3359.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-05" x="1908.86" y="3305.92" width="90" height="90" rx="10" transform="rotate(21.75 1908.86 3305.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-04" x="1770.52" y="3246.84" width="90" height="90" rx="10" transform="rotate(24.334 1770.52 3246.84)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-03" x="1633" y="3182.31" width="90" height="90" rx="10" transform="rotate(25.752 1633 3182.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-02" x="1497" y="3113.31" width="90" height="90" rx="10" transform="rotate(25.752 1497 3113.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-5-seat-01" x="1364" y="3039.31" width="90" height="90" rx="10" transform="rotate(25.752 1364 3039.31)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-6">
+        <rect id="sec-1-row-6-seat-08" x="2263.86" y="3678.92" width="90" height="90" rx="10" transform="rotate(21.75 2263.86 3678.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-07" x="2117.86" y="3635.92" width="90" height="90" rx="10" transform="rotate(21.75 2117.86 3635.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-06" x="1971.86" y="3588.92" width="90" height="90" rx="10" transform="rotate(21.75 1971.86 3588.92)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-05" x="1829" y="3534.31" width="90" height="90" rx="10" transform="rotate(25.75 1829 3534.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-04" x="1689.05" y="3476.96" width="90" height="90" rx="10" transform="rotate(26.75 1689.05 3476.96)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-03" x="1549.05" y="3414.95" width="90" height="90" rx="10" transform="rotate(26.75 1549.05 3414.95)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-02" x="1412.05" y="3348.95" width="90" height="90" rx="10" transform="rotate(26.75 1412.05 3348.95)" fill="#E6E8EC" />
+        <rect id="sec-1-row-6-seat-01" x="1276.05" y="3278.95" width="90" height="90" rx="10" transform="rotate(26.75 1276.05 3278.95)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-7">
+        <rect id="sec-1-row-7-seat-08" x="2177.83" y="3908.83" width="90" height="90" rx="10" transform="rotate(19.75 2177.83 3908.83)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-07" x="2031.83" y="3865.83" width="90" height="90" rx="10" transform="rotate(19.75 2031.83 3865.83)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-06" x="1886.83" y="3818.83" width="90" height="90" rx="10" transform="rotate(19.75 1886.83 3818.83)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-05" x="1738.83" y="3764.83" width="90" height="90" rx="10" transform="rotate(19.75 1738.83 3764.83)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-04" x="1604" y="3705.31" width="90" height="90" rx="10" transform="rotate(25.752 1604 3705.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-03" x="1464" y="3644.31" width="90" height="90" rx="10" transform="rotate(25.752 1464 3644.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-02" x="1326" y="3578.31" width="90" height="90" rx="10" transform="rotate(25.752 1326 3578.31)" fill="#E6E8EC" />
+        <rect id="sec-1-row-7-seat-01" x="1190" y="3509.31" width="90" height="90" rx="10" transform="rotate(25.752 1190 3509.31)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-8">
+        <rect id="sec-1-row-8-seat-09" x="2238.16" y="4179.28" width="90" height="90" rx="10" transform="rotate(15 2238.16 4179.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-08" x="2090.16" y="4140.28" width="90" height="90" rx="10" transform="rotate(15 2090.16 4140.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-07" x="1944.16" y="4098.28" width="90" height="90" rx="10" transform="rotate(15 1944.16 4098.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-06" x="1799.16" y="4050.28" width="90" height="90" rx="10" transform="rotate(15 1799.16 4050.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-05" x="1652.16" y="3997.28" width="90" height="90" rx="10" transform="rotate(15 1652.16 3997.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-04" x="1510.16" y="3940.27" width="90" height="90" rx="10" transform="rotate(15 1510.16 3940.27)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-03" x="1370.16" y="3878.27" width="90" height="90" rx="10" transform="rotate(15 1370.16 3878.27)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-02" x="1232.16" y="3813.27" width="90" height="90" rx="10" transform="rotate(15 1232.16 3813.27)" fill="#E6E8EC" />
+        <rect id="sec-1-row-8-seat-01" x="1096.16" y="3744.27" width="90" height="90" rx="10" transform="rotate(15 1096.16 3744.27)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-9">
+        <rect id="sec-1-row-9-seat-09" x="2189.16" y="4385.28" width="90" height="90" rx="10" transform="rotate(15 2189.16 4385.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-08" x="2040.16" y="4355.28" width="90" height="90" rx="10" transform="rotate(15 2040.16 4355.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-07" x="1892.16" y="4319.28" width="90" height="90" rx="10" transform="rotate(15 1892.16 4319.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-06" x="1744.16" y="4280.28" width="90" height="90" rx="10" transform="rotate(15 1744.16 4280.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-05" x="1594.16" y="4234.28" width="90" height="90" rx="10" transform="rotate(15 1594.16 4234.28)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-04" x="1450.16" y="4184.27" width="90" height="90" rx="10" transform="rotate(15 1450.16 4184.27)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-03" x="1307.16" y="4130.27" width="90" height="90" rx="10" transform="rotate(15 1307.16 4130.27)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-02" x="1166.16" y="4073.27" width="90" height="90" rx="10" transform="rotate(15 1166.16 4073.27)" fill="#E6E8EC" />
+        <rect id="sec-1-row-9-seat-01" x="1026.16" y="4011.27" width="90" height="90" rx="10" transform="rotate(15 1026.16 4011.27)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-10">
+        <rect id="sec-1-row-10-seat-09" x="2183.32" y="4582.02" width="90" height="90" rx="10" transform="rotate(12 2183.32 4582.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-08" x="2032.32" y="4564.02" width="90" height="90" rx="10" transform="rotate(12 2032.32 4564.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-07" x="1881.32" y="4542.02" width="90" height="90" rx="10" transform="rotate(12 1881.32 4542.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-06" x="1730.32" y="4515.02" width="90" height="90" rx="10" transform="rotate(12 1730.32 4515.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-05" x="1577.32" y="4483.02" width="90" height="90" rx="10" transform="rotate(12 1577.32 4483.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-04" x="1429.32" y="4446.02" width="90" height="90" rx="10" transform="rotate(12 1429.32 4446.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-03" x="1282.32" y="4405.02" width="90" height="90" rx="10" transform="rotate(12 1282.32 4405.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-02" x="1136.32" y="4359.02" width="90" height="90" rx="10" transform="rotate(12 1136.32 4359.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-10-seat-01" x="992.318" y="4310.02" width="90" height="90" rx="10" transform="rotate(12 992.318 4310.02)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-11">
+        <rect id="sec-1-row-11-seat-09" x="2162.32" y="4798.02" width="90" height="90" rx="10" transform="rotate(12 2162.32 4798.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-08" x="2009.32" y="4790.02" width="90" height="90" rx="10" transform="rotate(12 2009.32 4790.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-07" x="1857.32" y="4778.02" width="90" height="90" rx="10" transform="rotate(12 1857.32 4778.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-06" x="1705.32" y="4761.02" width="90" height="90" rx="10" transform="rotate(12 1705.32 4761.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-05" x="1550.32" y="4738.01" width="90" height="90" rx="10" transform="rotate(12 1550.32 4738.01)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-04" x="1400.32" y="4711.02" width="90" height="90" rx="10" transform="rotate(12 1400.32 4711.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-03" x="1251.32" y="4679.02" width="90" height="90" rx="10" transform="rotate(12 1251.32 4679.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-02" x="1103.32" y="4643.02" width="90" height="90" rx="10" transform="rotate(12 1103.32 4643.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-11-seat-01" x="955.318" y="4603.02" width="90" height="90" rx="10" transform="rotate(12 955.318 4603.02)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-12">
+        <rect id="sec-1-row-12-seat-09" x="2158.32" y="5004.02" width="90" height="90" rx="10" transform="rotate(12 2158.32 5004.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-08" x="2005.32" y="5004.02" width="90" height="90" rx="10" transform="rotate(12 2005.32 5004.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-07" x="1853.32" y="4999.02" width="90" height="90" rx="10" transform="rotate(12 1853.32 4999.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-06" x="1701.32" y="4990.02" width="90" height="90" rx="10" transform="rotate(12 1701.32 4990.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-05" x="1545.32" y="4975.02" width="90" height="90" rx="10" transform="rotate(12 1545.32 4975.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-04" x="1393.32" y="4956.02" width="90" height="90" rx="10" transform="rotate(12 1393.32 4956.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-03" x="1242.32" y="4932.02" width="90" height="90" rx="10" transform="rotate(12 1242.32 4932.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-02" x="1092.32" y="4904.02" width="90" height="90" rx="10" transform="rotate(12 1092.32 4904.02)" fill="#E6E8EC" />
+        <rect id="sec-1-row-12-seat-01" x="943.318" y="4872.02" width="90" height="90" rx="10" transform="rotate(12 943.318 4872.02)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-13">
+        <rect id="sec-1-row-13-seat-09" x="2145.23" y="5235.36" width="90" height="90" rx="10" transform="rotate(4 2145.23 5235.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-08" x="1993.23" y="5234.36" width="90" height="90" rx="10" transform="rotate(4 1993.23 5234.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-07" x="1840.23" y="5230.36" width="90" height="90" rx="10" transform="rotate(4 1840.23 5230.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-06" x="1688.23" y="5221.36" width="90" height="90" rx="10" transform="rotate(4 1688.23 5221.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-05" x="1532.23" y="5206.36" width="90" height="90" rx="10" transform="rotate(4 1532.23 5206.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-04" x="1380.23" y="5187.36" width="90" height="90" rx="10" transform="rotate(4 1380.23 5187.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-03" x="1230.23" y="5163.36" width="90" height="90" rx="10" transform="rotate(4 1230.23 5163.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-02" x="1079.23" y="5135.36" width="90" height="90" rx="10" transform="rotate(4 1079.23 5135.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-13-seat-01" x="930.227" y="5103.36" width="90" height="90" rx="10" transform="rotate(4 930.227 5103.36)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-14">
+        <rect id="sec-1-row-14-seat-09" x="2147.23" y="5448.36" width="90" height="90" rx="10" transform="rotate(4 2147.23 5448.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-08" x="1995.23" y="5455.36" width="90" height="90" rx="10" transform="rotate(4 1995.23 5455.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-07" x="1842.23" y="5458.36" width="90" height="90" rx="10" transform="rotate(4 1842.23 5458.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-06" x="1689.23" y="5456.36" width="90" height="90" rx="10" transform="rotate(4 1689.23 5456.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-05" x="1533.23" y="5449.36" width="90" height="90" rx="10" transform="rotate(4 1533.23 5449.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-04" x="1381.23" y="5437.36" width="90" height="90" rx="10" transform="rotate(4 1381.23 5437.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-03" x="1229.23" y="5421.36" width="90" height="90" rx="10" transform="rotate(4 1229.23 5421.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-02" x="1078.23" y="5400.36" width="90" height="90" rx="10" transform="rotate(4 1078.23 5400.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-14-seat-01" x="927.227" y="5375.36" width="90" height="90" rx="10" transform="rotate(4 927.227 5375.36)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-15">
+        <rect id="sec-1-row-15-seat-09" x="2141.23" y="5665.36" width="90" height="90" rx="10" transform="rotate(4 2141.23 5665.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-08" x="1989.23" y="5679.36" width="90" height="90" rx="10" transform="rotate(4 1989.23 5679.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-07" x="1837.23" y="5689.36" width="90" height="90" rx="10" transform="rotate(4 1837.23 5689.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-06" x="1684.23" y="5694.36" width="90" height="90" rx="10" transform="rotate(4 1684.23 5694.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-05" x="1528.23" y="5694.36" width="90" height="90" rx="10" transform="rotate(4 1528.23 5694.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-04" x="1375.23" y="5689.36" width="90" height="90" rx="10" transform="rotate(4 1375.23 5689.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-03" x="1223.23" y="5679.36" width="90" height="90" rx="10" transform="rotate(4 1223.23 5679.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-02" x="1071.23" y="5665.36" width="90" height="90" rx="10" transform="rotate(4 1071.23 5665.36)" fill="#E6E8EC" />
+        <rect id="sec-1-row-15-seat-01" x="919.227" y="5647.36" width="90" height="90" rx="10" transform="rotate(4 919.227 5647.36)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-16">
+        <rect id="sec-1-row-16-seat-09" x="2155.98" y="5918.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-08" x="2003.98" y="5932.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-07" x="1851.98" y="5942.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-06" x="1698.98" y="5947.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-05" x="1541.98" y="5947.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-04" x="1389.98" y="5941.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-03" x="1236.98" y="5932.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-02" x="1084.98" y="5917.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-16-seat-01" x="933.978" y="5899.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-17">
+        <rect id="sec-1-row-17-seat-09" x="2166.98" y="6167.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-08" x="2014.98" y="6181.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-07" x="1862.98" y="6191.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-06" x="1710.98" y="6196.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-05" x="1553.98" y="6196.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-04" x="1400.98" y="6191.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-03" x="1248.98" y="6181.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-02" x="1096.98" y="6167.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-17-seat-01" x="944.978" y="6149.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-18">
+        <rect id="sec-1-row-18-seat-09" x="2169.98" y="6417.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-08" x="2017.98" y="6431.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-07" x="1865.98" y="6441.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-06" x="1713.98" y="6446.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-05" x="1556.98" y="6446.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-04" x="1403.98" y="6441.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-03" x="1251.98" y="6431.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-02" x="1099.98" y="6417.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-18-seat-01" x="947.978" y="6398.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-19">
+        <rect id="sec-1-row-19-seat-09" x="2190.98" y="6666.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-08" x="2038.98" y="6681.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-07" x="1886.98" y="6690.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-06" x="1733.98" y="6695.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-05" x="1577.98" y="6695.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-04" x="1424.98" y="6690.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-03" x="1272.98" y="6680.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-02" x="1120.98" y="6666.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-19-seat-01" x="968.978" y="6648.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-20">
+        <rect id="sec-1-row-20-seat-09" x="2199.98" y="6916.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-08" x="2047.98" y="6930.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-07" x="1894.98" y="6940.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-06" x="1742.98" y="6945.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-05" x="1585.98" y="6945.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-04" x="1433.98" y="6940.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-03" x="1280.98" y="6930.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-02" x="1128.98" y="6916.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-20-seat-01" x="977.978" y="6897.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-21">
+        <rect id="sec-1-row-21-seat-" x="2222.98" y="7165.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_2" x="2070.98" y="7180.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_3" x="1918.98" y="7189.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_4" x="1765.98" y="7194.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_5" x="1609.98" y="7194.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_6" x="1456.98" y="7189.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_7" x="1304.98" y="7179.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_8" x="1152.98" y="7165.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-21-seat-_9" x="1000.98" y="7147.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-22">
+        <rect id="sec-1-row-22-seat-09" x="2293.98" y="7505.39" width="90" height="90" rx="10" transform="rotate(-90 2293.98 7505.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-08" x="2141.98" y="7519.39" width="90" height="90" rx="10" transform="rotate(-90 2141.98 7519.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-07" x="1988.98" y="7529.39" width="90" height="90" rx="10" transform="rotate(-90 1988.98 7529.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-06" x="1836.98" y="7534.39" width="90" height="90" rx="10" transform="rotate(-90 1836.98 7534.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-05" x="1679.98" y="7534.39" width="90" height="90" rx="10" transform="rotate(-90 1679.98 7534.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-04" x="1527.98" y="7529.39" width="90" height="90" rx="10" transform="rotate(-90 1527.98 7529.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-03" x="1374.98" y="7519.39" width="90" height="90" rx="10" transform="rotate(-90 1374.98 7519.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-02" x="1222.98" y="7505.39" width="90" height="90" rx="10" transform="rotate(-90 1222.98 7505.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-22-seat-01" x="1071.98" y="7486.39" width="90" height="90" rx="10" transform="rotate(-90 1071.98 7486.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-23">
+        <rect id="sec-1-row-23-seat-09" x="2304.98" y="7754.39" width="90" height="90" rx="10" transform="rotate(-90 2304.98 7754.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-08" x="2152.98" y="7769.39" width="90" height="90" rx="10" transform="rotate(-90 2152.98 7769.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-07" x="2000.98" y="7778.39" width="90" height="90" rx="10" transform="rotate(-90 2000.98 7778.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-06" x="1847.98" y="7783.39" width="90" height="90" rx="10" transform="rotate(-90 1847.98 7783.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-05" x="1691.98" y="7783.39" width="90" height="90" rx="10" transform="rotate(-90 1691.98 7783.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-04" x="1538.98" y="7778.39" width="90" height="90" rx="10" transform="rotate(-90 1538.98 7778.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-03" x="1386.98" y="7768.39" width="90" height="90" rx="10" transform="rotate(-90 1386.98 7768.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-02" x="1234.98" y="7754.39" width="90" height="90" rx="10" transform="rotate(-90 1234.98 7754.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-23-seat-01" x="1082.98" y="7736.39" width="90" height="90" rx="10" transform="rotate(-90 1082.98 7736.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-24">
+        <rect id="sec-1-row-24-seat-09" x="2304.98" y="8004.39" width="90" height="90" rx="10" transform="rotate(-90 2304.98 8004.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-08" x="2152.98" y="8018.39" width="90" height="90" rx="10" transform="rotate(-90 2152.98 8018.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-07" x="2000.98" y="8028.39" width="90" height="90" rx="10" transform="rotate(-90 2000.98 8028.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-06" x="1847.98" y="8033.39" width="90" height="90" rx="10" transform="rotate(-90 1847.98 8033.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-05" x="1691.98" y="8033.39" width="90" height="90" rx="10" transform="rotate(-90 1691.98 8033.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-04" x="1538.98" y="8028.39" width="90" height="90" rx="10" transform="rotate(-90 1538.98 8028.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-03" x="1386.98" y="8018.39" width="90" height="90" rx="10" transform="rotate(-90 1386.98 8018.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-02" x="1234.98" y="8004.39" width="90" height="90" rx="10" transform="rotate(-90 1234.98 8004.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-24-seat-01" x="1082.98" y="7985.39" width="90" height="90" rx="10" transform="rotate(-90 1082.98 7985.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-25">
+        <rect id="sec-1-row-25-seat-09" x="2366.98" y="8263.39" width="90" height="90" rx="10" transform="rotate(-90 2366.98 8263.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-08" x="2205.98" y="8267.39" width="90" height="90" rx="10" transform="rotate(-90 2205.98 8267.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-07" x="2053.98" y="8277.39" width="90" height="90" rx="10" transform="rotate(-90 2053.98 8277.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-06" x="1900.98" y="8282.39" width="90" height="90" rx="10" transform="rotate(-90 1900.98 8282.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-05" x="1744.98" y="8282.39" width="90" height="90" rx="10" transform="rotate(-90 1744.98 8282.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-04" x="1591.98" y="8277.39" width="90" height="90" rx="10" transform="rotate(-90 1591.98 8277.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-03" x="1439.98" y="8267.39" width="90" height="90" rx="10" transform="rotate(-90 1439.98 8267.39)" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-02" x="1287.98" y="8163.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-25-seat-01" x="1135.98" y="8145.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-26">
+        <rect id="sec-1-row-26-seat-09" x="2390.98" y="8413.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-08" x="2237.98" y="8427.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-07" x="2085.98" y="8437.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-06" x="1933.98" y="8442.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-05" x="1776.98" y="8442.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-04" x="1624.98" y="8437.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-03" x="1471.98" y="8427.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-02" x="1319.98" y="8413.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-26-seat-01" x="1167.98" y="8394.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-27">
+        <rect id="sec-1-row-27-seat-09" x="2410.98" y="8662.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-08" x="2258.98" y="8677.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-07" x="2106.98" y="8686.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-06" x="1953.98" y="8691.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-05" x="1797.98" y="8691.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-04" x="1644.98" y="8686.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-03" x="1492.98" y="8676.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-02" x="1340.98" y="8662.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-27-seat-01" x="1188.98" y="8644.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-1-row-28">
+        <rect id="sec-1-row-28-seat-09" x="2460.98" y="8912.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-08" x="2308.98" y="8926.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-07" x="2156.98" y="8936.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-06" x="2003.98" y="8941.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-05" x="1846.62" y="8941.47" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-04" x="1694.98" y="8936.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-03" x="1542.98" y="8926.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-02" x="1389.98" y="8912.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-1-row-28-seat-01" x="1238.98" y="8893.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <path id="BG Overlay" d="M1718.83 2239.73L1718.72 2239.94L1718.6 2240.14L756.86 3921.42C756.826 3921.49 756.791 3921.55 756.757 3921.62C753.258 3928.22 751.623 3935.64 752.029 3943.1L1041.9 9265.17C1043.03 9285.79 1058.74 9302.07 1078.94 9303.74C1291.98 9321.35 2146.01 9389.73 2976.06 9424.97C2960.78 9388.85 2939.03 9335.08 2912.79 9263.68C2860.11 9120.38 2789.3 8906.12 2716.3 8621.18C2570.31 8051.29 2415.55 7198.81 2379.45 6066.18C2343.35 4933.71 2436.53 4066.52 2538.93 3481.92C2590.13 3189.63 2643.63 2968 2684.43 2819.19C2704.83 2744.79 2722.05 2688.59 2734.21 2650.87C2738.45 2637.73 2730.94 2623.6 2717.82 2619.79C2285.5 2494.24 1983.25 2332.87 1827.5 2249.71C1808 2239.3 1790.8 2230.12 1775.92 2222.38C1755.22 2211.62 1729.75 2219.41 1718.83 2239.73Z" fill="#E6DFF8" stroke="#6531F5" stroke-width="35.2253" />
+      <g id="Orchestra Left">
+        <path d="M1372.32 6042.11C1372.32 6054.26 1369.5 6065.47 1363.86 6075.74C1358.1 6085.88 1350.15 6093.96 1340 6099.97C1329.73 6105.86 1318.21 6108.8 1305.43 6108.8C1292.66 6108.8 1281.2 6105.86 1271.05 6099.97C1260.91 6093.96 1253.02 6085.88 1247.38 6075.74C1241.62 6065.47 1238.74 6054.26 1238.74 6042.11C1238.74 6029.83 1241.62 6018.62 1247.38 6008.48C1253.02 5998.21 1260.91 5990.13 1271.05 5984.24C1281.2 5978.36 1292.66 5975.41 1305.43 5975.41C1318.21 5975.41 1329.73 5978.36 1340 5984.24C1350.15 5990.13 1358.1 5998.21 1363.86 6008.48C1369.5 6018.62 1372.32 6029.83 1372.32 6042.11ZM1353.72 6042.11C1353.72 6033.47 1351.77 6025.76 1347.89 6019C1343.88 6012.24 1338.25 6006.98 1330.98 6003.22C1323.59 5999.34 1315.08 5997.39 1305.43 5997.39C1295.79 5997.39 1287.34 5999.34 1280.07 6003.22C1272.81 6006.98 1267.23 6012.24 1263.35 6019C1259.47 6025.76 1257.53 6033.47 1257.53 6042.11C1257.53 6050.75 1259.47 6058.45 1263.35 6065.22C1267.23 6071.98 1272.81 6077.3 1280.07 6081.18C1287.34 6084.94 1295.79 6086.82 1305.43 6086.82C1315.08 6086.82 1323.59 6084.94 1330.98 6081.18C1338.25 6077.3 1343.88 6071.98 1347.89 6065.22C1351.77 6058.45 1353.72 6050.75 1353.72 6042.11ZM1282.51 5932.92C1277.25 5929.79 1273.18 5925.66 1270.3 5920.52C1267.3 5915.26 1265.79 5909.06 1265.79 5901.92L1287.96 5901.92L1287.96 5907.37C1287.96 5915.76 1290.09 5922.15 1294.35 5926.53C1298.61 5930.79 1306 5932.92 1316.52 5932.92L1371 5932.92L1371 5954.34L1267.48 5954.34L1267.48 5932.92L1282.51 5932.92ZM1319.15 5889.38C1308.5 5889.38 1299.17 5887.25 1291.16 5882.99C1283.02 5878.61 1276.75 5872.59 1272.37 5864.95C1267.99 5857.31 1265.79 5848.55 1265.79 5838.65C1265.79 5826.13 1268.8 5815.79 1274.81 5807.65C1280.7 5799.39 1289.15 5793.81 1300.17 5790.93L1300.17 5814.04C1295.04 5815.92 1291.03 5818.93 1288.15 5823.06C1285.27 5827.19 1283.83 5832.39 1283.83 5838.65C1283.83 5847.42 1286.96 5854.43 1293.22 5859.69C1299.36 5864.83 1308 5867.4 1319.15 5867.4C1330.3 5867.4 1339 5864.83 1345.26 5859.69C1351.52 5854.43 1354.66 5847.42 1354.66 5838.65C1354.66 5826.25 1349.21 5818.05 1338.31 5814.04L1338.31 5790.93C1348.83 5793.94 1357.22 5799.58 1363.49 5807.84C1369.62 5816.11 1372.69 5826.38 1372.69 5838.65C1372.69 5848.55 1370.5 5857.31 1366.12 5864.95C1361.61 5872.59 1355.34 5878.61 1347.33 5882.99C1339.19 5887.25 1329.79 5889.38 1319.15 5889.38ZM1265.79 5716.05C1265.79 5708.16 1267.48 5701.14 1270.87 5695.01C1274.25 5688.74 1279.26 5683.86 1285.9 5680.35C1292.53 5676.72 1300.55 5674.9 1309.94 5674.9L1371 5674.9L1371 5696.13L1313.14 5696.13C1303.87 5696.13 1296.79 5698.45 1291.91 5703.08C1286.9 5707.72 1284.39 5714.04 1284.39 5722.06C1284.39 5730.07 1286.9 5736.46 1291.91 5741.22C1296.79 5745.86 1303.87 5748.17 1313.14 5748.17L1371 5748.17L1371 5769.59L1231.98 5769.59L1231.98 5748.17L1279.51 5748.17C1275.12 5744.54 1271.74 5739.97 1269.36 5734.46C1266.98 5728.82 1265.79 5722.69 1265.79 5716.05ZM1316.71 5552.71C1320.59 5552.71 1324.1 5552.96 1327.23 5553.46L1327.23 5632.56C1335.49 5631.93 1342.13 5628.86 1347.14 5623.35C1352.15 5617.84 1354.66 5611.08 1354.66 5603.06C1354.66 5591.54 1349.83 5583.4 1340.19 5578.64L1340.19 5555.53C1349.71 5558.66 1357.54 5564.36 1363.67 5572.63C1369.68 5580.77 1372.69 5590.91 1372.69 5603.06C1372.69 5612.96 1370.5 5621.85 1366.12 5629.74C1361.61 5637.5 1355.34 5643.64 1347.33 5648.15C1339.19 5652.53 1329.79 5654.72 1319.15 5654.72C1308.5 5654.72 1299.17 5652.6 1291.16 5648.34C1283.02 5643.95 1276.75 5637.88 1272.37 5630.11C1267.99 5622.22 1265.79 5613.21 1265.79 5603.06C1265.79 5593.29 1267.92 5584.59 1272.18 5576.95C1276.44 5569.31 1282.45 5563.36 1290.22 5559.1C1297.86 5554.84 1306.69 5552.71 1316.71 5552.71ZM1309.94 5575.07C1302.05 5575.19 1295.73 5578.01 1290.97 5583.52C1286.21 5589.03 1283.83 5595.86 1283.83 5604C1283.83 5611.39 1286.21 5617.71 1290.97 5622.97C1295.6 5628.24 1301.93 5631.37 1309.94 5632.37L1309.94 5575.07ZM1372.69 5494.06C1372.69 5502.2 1371.25 5509.53 1368.37 5516.04C1365.36 5522.43 1361.36 5527.5 1356.35 5531.26C1351.21 5535.02 1345.51 5537.02 1339.25 5537.27L1339.25 5515.1C1343.63 5514.73 1347.33 5512.66 1350.33 5508.9C1353.22 5505.02 1354.66 5500.2 1354.66 5494.44C1354.66 5488.43 1353.53 5483.79 1351.27 5480.54C1348.89 5477.15 1345.89 5475.46 1342.26 5475.46C1338.37 5475.46 1335.49 5477.34 1333.61 5481.1C1331.74 5484.73 1329.67 5490.56 1327.41 5498.57C1325.29 5506.34 1323.22 5512.66 1321.21 5517.55C1319.21 5522.43 1316.14 5526.69 1312.01 5530.32C1307.88 5533.83 1302.43 5535.58 1295.66 5535.58C1290.15 5535.58 1285.14 5533.95 1280.64 5530.7C1276 5527.44 1272.37 5522.81 1269.74 5516.79C1267.11 5510.66 1265.79 5503.64 1265.79 5495.75C1265.79 5483.98 1268.8 5474.52 1274.81 5467.38C1280.7 5460.12 1288.78 5456.24 1299.05 5455.74L1299.05 5477.15C1294.41 5477.53 1290.72 5479.41 1287.96 5482.79C1285.21 5486.17 1283.83 5490.74 1283.83 5496.5C1283.83 5502.14 1284.89 5506.46 1287.02 5509.47C1289.15 5512.47 1291.97 5513.98 1295.48 5513.98C1298.23 5513.98 1300.55 5512.97 1302.43 5510.97C1304.31 5508.97 1305.81 5506.52 1306.94 5503.64C1307.94 5500.76 1309.25 5496.5 1310.88 5490.87C1312.89 5483.35 1314.95 5477.22 1317.08 5472.46C1319.09 5467.57 1322.09 5463.38 1326.1 5459.87C1330.11 5456.36 1335.43 5454.55 1342.07 5454.42C1347.95 5454.42 1353.22 5456.05 1357.85 5459.31C1362.48 5462.56 1366.12 5467.2 1368.75 5473.21C1371.38 5479.1 1372.69 5486.05 1372.69 5494.06ZM1284.96 5406.29L1342.26 5406.29C1346.14 5406.29 1348.96 5405.42 1350.71 5403.66C1352.34 5401.79 1353.15 5398.65 1353.15 5394.27L1353.15 5381.12L1371 5381.12L1371 5398.03C1371 5407.67 1368.75 5415.06 1364.24 5420.2C1359.73 5425.33 1352.4 5427.9 1342.26 5427.9L1284.96 5427.9L1284.96 5440.11L1267.48 5440.11L1267.48 5427.9L1241.75 5427.9L1241.75 5406.29L1267.48 5406.29L1267.48 5381.12L1284.96 5381.12L1284.96 5406.29ZM1282.51 5339.96C1277.25 5336.83 1273.18 5332.7 1270.3 5327.56C1267.3 5322.3 1265.79 5316.1 1265.79 5308.96L1287.96 5308.96L1287.96 5314.41C1287.96 5322.8 1290.09 5329.19 1294.35 5333.58C1298.61 5337.83 1306 5339.96 1316.52 5339.96L1371 5339.96L1371 5361.38L1267.48 5361.38L1267.48 5339.96L1282.51 5339.96ZM1318.77 5296.42C1308.38 5296.42 1299.17 5294.29 1291.16 5290.03C1283.14 5285.65 1276.94 5279.76 1272.56 5272.37C1268.05 5264.86 1265.79 5256.59 1265.79 5247.57C1265.79 5239.43 1267.42 5232.35 1270.68 5226.34C1273.81 5220.21 1277.75 5215.32 1282.51 5211.69L1267.48 5211.69L1267.48 5190.08L1371 5190.08L1371 5211.69L1355.59 5211.69C1360.48 5215.32 1364.55 5220.27 1367.81 5226.53C1371.06 5232.79 1372.69 5239.93 1372.69 5247.95C1372.69 5256.84 1370.44 5264.98 1365.93 5272.37C1361.29 5279.76 1354.91 5285.65 1346.76 5290.03C1338.5 5294.29 1329.17 5296.42 1318.77 5296.42ZM1319.15 5211.69C1312.01 5211.69 1305.81 5213.19 1300.55 5216.2C1295.29 5219.08 1291.28 5222.9 1288.53 5227.66C1285.77 5232.42 1284.39 5237.55 1284.39 5243.06C1284.39 5248.57 1285.77 5253.71 1288.53 5258.47C1291.16 5263.23 1295.1 5267.11 1300.36 5270.12C1305.5 5273 1311.63 5274.44 1318.77 5274.44C1325.91 5274.44 1332.17 5273 1337.56 5270.12C1342.95 5267.11 1347.08 5263.23 1349.96 5258.47C1352.71 5253.58 1354.09 5248.45 1354.09 5243.06C1354.09 5237.55 1352.71 5232.42 1349.96 5227.66C1347.2 5222.9 1343.2 5219.08 1337.94 5216.2C1332.55 5213.19 1326.29 5211.69 1319.15 5211.69ZM1844.99 6053.23L1844.99 5915.26L1899 5915.26L1899 6120.15L1490.97 6120.15L1490.97 6053.23L1844.99 6053.23ZM1729.33 5562.81C1741.46 5562.81 1752.42 5563.59 1762.21 5565.16L1762.21 5812.32C1788.04 5810.37 1808.78 5800.78 1824.44 5783.56C1840.1 5766.33 1847.92 5745.2 1847.92 5720.15C1847.92 5684.14 1832.85 5658.7 1802.72 5643.83L1802.72 5571.62C1832.46 5581.4 1856.93 5599.21 1876.1 5625.04C1894.89 5650.48 1904.28 5682.19 1904.28 5720.15C1904.28 5751.07 1897.43 5778.86 1883.74 5803.52C1869.65 5827.78 1850.08 5846.96 1825.03 5861.05C1799.59 5874.75 1770.23 5881.6 1736.96 5881.6C1703.7 5881.6 1674.54 5874.95 1649.49 5861.64C1624.05 5847.94 1604.48 5828.96 1590.78 5804.69C1577.08 5780.03 1570.23 5751.85 1570.23 5720.15C1570.23 5689.62 1576.88 5662.42 1590.19 5638.55C1603.5 5614.67 1622.29 5596.08 1646.55 5582.77C1670.43 5569.46 1698.02 5562.81 1729.33 5562.81ZM1708.2 5632.67C1683.54 5633.07 1663.77 5641.87 1648.9 5659.09C1634.03 5676.31 1626.59 5697.65 1626.59 5723.09C1626.59 5746.18 1634.03 5765.94 1648.9 5782.38C1663.38 5798.82 1683.15 5808.61 1708.2 5811.74L1708.2 5632.67ZM1630.11 5361.33L1630.11 5421.21L1899 5421.21L1899 5488.73L1630.11 5488.73L1630.11 5526.89L1575.51 5526.89L1575.51 5488.73L1552.62 5488.73C1515.44 5488.73 1488.43 5478.94 1471.6 5459.37C1454.38 5439.41 1445.77 5408.3 1445.77 5366.03L1501.54 5366.03C1501.54 5386.38 1505.46 5400.66 1513.28 5408.88C1520.72 5417.1 1533.83 5421.21 1552.62 5421.21L1575.51 5421.21L1575.51 5361.33L1630.11 5361.33ZM1630.11 5223.93L1809.18 5223.93C1821.31 5223.93 1830.11 5221.19 1835.59 5215.71C1840.68 5209.84 1843.23 5200.06 1843.23 5186.36L1843.23 5145.26L1899 5145.26L1899 5198.1C1899 5228.24 1891.95 5251.33 1877.86 5267.38C1863.77 5283.42 1840.88 5291.45 1809.18 5291.45L1630.11 5291.45L1630.11 5329.61L1575.51 5329.61L1575.51 5291.45L1495.08 5291.45L1495.08 5223.93L1575.51 5223.93L1575.51 5145.26L1630.11 5145.26L1630.11 5223.93Z" fill="#6531F5" fill-opacity="0.4" />
+      </g>
+    </g>
+    <g id="Sec-2">
+      <path id="BG_2" d="M2828.59 8547.58C2834.18 8571.97 2853.49 8589.6 2876.84 8591.64C3043.99 8606.23 3517.15 8644.86 3843.06 8644.86C4169.84 8644.86 4644.65 8606.03 4810.6 8591.52C4833.94 8589.48 4853.25 8571.88 4858.85 8547.53C4988.69 7982.77 5121.52 7160.16 5153.6 6081.77C5187.18 4953.43 5100.5 4090.22 5005.54 3509.37C4958.06 3218.94 4908.5 2999.09 4870.86 2851.99C4852.04 2778.44 4836.2 2723.07 4825.08 2686.16C4819.53 2667.71 4815.15 2653.86 4812.18 2644.67C4811.9 2643.81 4811.06 2643.34 4810.25 2643.57C4514.25 2729.95 4180.98 2794.19 3844.43 2794.19C3501.9 2794.19 3168.86 2727.65 2877.08 2638.95C2876.98 2638.92 2876.88 2638.97 2876.85 2639.08C2876.32 2640.69 2875.72 2642.55 2875.04 2644.64C2872.08 2653.84 2867.73 2667.68 2862.2 2686.13C2851.14 2723.05 2835.37 2778.41 2816.64 2851.97C2779.17 2999.07 2729.85 3218.92 2682.59 3509.35C2588.07 4090.21 2501.8 4953.43 2535.22 6081.77C2567.15 7160.19 2699.36 7982.82 2828.59 8547.58Z" fill="#FCFCFD" />
+      <g id="sec-2-row-1">
+        <rect id="sec-2-row-1-seat-10" x="4483.98" y="2882.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-09" x="4333.98" y="2911.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-08" x="4182.98" y="2934.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-07" x="4030.98" y="2949.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-06" x="3878.98" y="2958.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-05" x="3722.98" y="2957.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-04" x="3570.98" y="2949.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-03" x="3418.98" y="2933.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-02" x="3267.98" y="2911.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-1-seat-01" x="3117.98" y="2881.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-2">
+        <rect id="sec-2-row-2-seat-12" x="4631.98" y="3092.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-11" x="4483.98" y="3128.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-10" x="4333.98" y="3156.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-09" x="4182.98" y="3178.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-08" x="4030.98" y="3193.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-07" x="3877.98" y="3201.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-06" x="3722.98" y="3201.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-05" x="3569.98" y="3193.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-04" x="3417.98" y="3178.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-03" x="3266.98" y="3156.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-02" x="3116.98" y="3127.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-2-seat-01" x="2968.98" y="3092.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-3">
+        <rect id="sec-2-row-3-seat-12" x="4635.98" y="3356.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-11" x="4485.98" y="3385.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-10" x="4334.98" y="3409.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-09" x="4183.98" y="3427.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-08" x="4030.98" y="3439.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-07" x="3878.98" y="3446.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-06" x="3722.98" y="3446.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-05" x="3569.98" y="3439.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-04" x="3417.98" y="3427.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-03" x="3266.98" y="3408.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-02" x="3115.98" y="3385.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-3-seat-01" x="2965.98" y="3355.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-4">
+        <rect id="sec-2-row-4-seat-12" x="4635.98" y="3600.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-11" x="4485.98" y="3629.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-10" x="4334.98" y="3652.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-09" x="4183.98" y="3671.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-08" x="4030.98" y="3683.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-07" x="3878.98" y="3690.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-06" x="3722.98" y="3689.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-05" x="3569.98" y="3683.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-04" x="3417.98" y="3670.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-03" x="3266.98" y="3652.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-02" x="3115.98" y="3628.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-4-seat-01" x="2965.98" y="3599.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-5">
+        <rect id="sec-2-row-5-seat-14" x="4787.98" y="3831.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-13" x="4637.98" y="3859.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-12" x="4486.98" y="3883.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-11" x="4335.98" y="3902.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-10" x="4183.98" y="3917.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-09" x="4031.98" y="3927.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-08" x="3878.98" y="3933.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-07" x="3722.98" y="3933.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-06" x="3569.98" y="3927.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-05" x="3417.98" y="3917.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-04" x="3265.98" y="3902.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-03" x="3114.98" y="3882.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-02" x="2963.98" y="3859.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-5-seat-01" x="2813.98" y="3830.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-6">
+        <rect id="sec-2-row-6-seat-14" x="4787.98" y="4078.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-13" x="4637.98" y="4106.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-12" x="4486.98" y="4129.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-11" x="4335.98" y="4147.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-10" x="4183.98" y="4162.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-09" x="4030.98" y="4172.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-08" x="3878.98" y="4177.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-07" x="3721.98" y="4177.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-06" x="3568.98" y="4172.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-05" x="3416.98" y="4162.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-04" x="3264.98" y="4147.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-03" x="3113.98" y="4128.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-02" x="2962.98" y="4105.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-6-seat-01" x="2812.98" y="4077.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-7">
+        <rect id="sec-2-row-7-seat-14" x="4787.98" y="4324.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-13" x="4637.98" y="4351.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-12" x="4486.98" y="4373.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-11" x="4334.98" y="4391.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-10" x="4183.98" y="4405.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-09" x="4030.98" y="4415.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-08" x="3878.98" y="4420.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-07" x="3721.98" y="4420.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-06" x="3568.98" y="4415.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-05" x="3416.98" y="4405.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-04" x="3264.98" y="4391.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-03" x="3113.98" y="4372.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-02" x="2962.98" y="4350.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-7-seat-01" x="2812.98" y="4323.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-8">
+        <rect id="sec-2-row-8-seat-14" x="4787.98" y="4565.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-13" x="4637.98" y="4593.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-12" x="4486.98" y="4616.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-11" x="4335.98" y="4635.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-10" x="4183.98" y="4649.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-09" x="4030.98" y="4659.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-08" x="3878.98" y="4664.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-07" x="3721.98" y="4664.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-06" x="3568.98" y="4659.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-05" x="3416.98" y="4649.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-04" x="3264.98" y="4634.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-03" x="3113.98" y="4615.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-02" x="2962.98" y="4592.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-8-seat-01" x="2812.98" y="4565.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-9">
+        <rect id="sec-2-row-9-seat-14" x="4787.98" y="4809.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-13" x="4637.98" y="4837.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-12" x="4486.98" y="4860.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-11" x="4335.98" y="4878.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-10" x="4183.98" y="4893.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-09" x="4030.98" y="4903.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-08" x="3878.98" y="4908.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-07" x="3721.98" y="4908.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-06" x="3568.98" y="4903.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-05" x="3416.98" y="4892.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-04" x="3264.98" y="4878.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-03" x="3113.98" y="4859.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-02" x="2962.98" y="4836.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-9-seat-01" x="2812.98" y="4808.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-10">
+        <rect id="sec-2-row-10-seat-14" x="4787.98" y="5053.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-13" x="4637.98" y="5080.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-12" x="4486.98" y="5103.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-11" x="4335.98" y="5122.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-10" x="4183.98" y="5137.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-09" x="4030.98" y="5147.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-08" x="3878.98" y="5152.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-07" x="3721.98" y="5152.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-06" x="3568.98" y="5146.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-05" x="3416.98" y="5136.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-04" x="3264.98" y="5122.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-03" x="3113.98" y="5103.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-02" x="2962.98" y="5080.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-10-seat-01" x="2812.98" y="5052.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-11">
+        <rect id="sec-2-row-11-seat-14" x="4787.98" y="5296.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-13" x="4637.98" y="5324.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-12" x="4486.98" y="5347.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-11" x="4335.98" y="5366.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-10" x="4183.98" y="5380.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-09" x="4030.98" y="5390.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-08" x="3878.98" y="5395.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-07" x="3721.98" y="5395.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-06" x="3568.98" y="5390.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-05" x="3416.98" y="5380.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-04" x="3264.98" y="5365.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-03" x="3113.98" y="5346.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-02" x="2962.98" y="5323.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-11-seat-01" x="2812.98" y="5295.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-12">
+        <rect id="sec-2-row-12-seat-14" x="4787.98" y="5540.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-13" x="4637.98" y="5568.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-12" x="4486.98" y="5591.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-11" x="4335.98" y="5609.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-10" x="4183.98" y="5624.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-09" x="4030.98" y="5634.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-08" x="3878.98" y="5639.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-07" x="3721.98" y="5639.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-06" x="3568.98" y="5634.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-05" x="3416.98" y="5624.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-04" x="3264.98" y="5609.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-03" x="3113.98" y="5590.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-02" x="2962.98" y="5567.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-12-seat-01" x="2812.98" y="5539.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-13">
+        <rect id="sec-2-row-13-seat-14" x="4787.98" y="5783.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-13" x="4637.98" y="5811.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-12" x="4486.98" y="5834.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-11" x="4335.98" y="5853.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-10" x="4183.98" y="5867.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-09" x="4030.98" y="5877.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-08" x="3878.98" y="5883.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-07" x="3721.98" y="5882.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-06" x="3568.98" y="5877.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-05" x="3416.98" y="5867.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-04" x="3264.98" y="5853.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-03" x="3113.98" y="5833.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-02" x="2962.98" y="5811.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-13-seat-01" x="2812.98" y="5783.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-14">
+        <rect id="sec-2-row-14-seat-14" x="4787.98" y="6027.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-13" x="4637.98" y="6055.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-12" x="4486.98" y="6078.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-11" x="4335.98" y="6097.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-10" x="4183.98" y="6111.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-09" x="4030.98" y="6121.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-08" x="3878.98" y="6126.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-07" x="3721.98" y="6126.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-06" x="3568.98" y="6121.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-05" x="3416.98" y="6111.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-04" x="3264.98" y="6096.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-03" x="3113.98" y="6077.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-02" x="2962.98" y="6054.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-14-seat-01" x="2812.98" y="6026.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-15">
+        <rect id="sec-2-row-15-seat-12" x="4636.98" y="6287.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-11" x="4486.98" y="6313.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-10" x="4335.98" y="6335.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-09" x="4183.98" y="6351.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-08" x="4031.98" y="6363.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-07" x="3879.98" y="6369.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-06" x="3722.98" y="6369.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-05" x="3570.98" y="6363.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-04" x="3417.98" y="6351.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-03" x="3266.98" y="6334.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-02" x="3115.98" y="6313.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-15-seat-01" x="2964.98" y="6286.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-16">
+        <rect id="sec-2-row-16-seat-12" x="4634.98" y="6517.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-11" x="4485.98" y="6548.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-10" x="4334.98" y="6573.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-09" x="4182.98" y="6593.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-08" x="4031.98" y="6606.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-07" x="3878.98" y="6613.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-06" x="3722.98" y="6613.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-05" x="3569.98" y="6606.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-04" x="3417.98" y="6592.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-03" x="3266.98" y="6573.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-02" x="3115.98" y="6548.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-16-seat-01" x="2966.98" y="6517.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-17">
+        <rect id="sec-2-row-17-seat-12" x="4634.98" y="6761.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-11" x="4485.98" y="6792.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-10" x="4334.98" y="6817.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-09" x="4183.98" y="6836.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-08" x="4031.98" y="6850.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-07" x="3878.98" y="6857.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-06" x="3722.98" y="6856.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-05" x="3570.98" y="6849.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-04" x="3417.98" y="6836.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-03" x="3266.98" y="6817.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-02" x="3115.98" y="6791.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-17-seat-01" x="2966.98" y="6760.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-18">
+        <rect id="sec-2-row-18-seat-12" x="4634.98" y="7005.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-11" x="4485.98" y="7036.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-10" x="4334.98" y="7061.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-09" x="4182.98" y="7080.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-08" x="4031.98" y="7093.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-07" x="3878.98" y="7100.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-06" x="3722.98" y="7100.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-05" x="3570.98" y="7093.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-04" x="3417.98" y="7079.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-03" x="3266.98" y="7060.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-02" x="3116.98" y="7035.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-18-seat-01" x="2966.98" y="7004.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-19">
+        <rect id="sec-2-row-19-seat-12" x="4634.98" y="7248.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-11" x="4485.98" y="7279.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-10" x="4334.98" y="7304.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-09" x="4183.98" y="7323.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-08" x="4030.98" y="7337.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-07" x="3878.98" y="7344.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-06" x="3722.98" y="7344.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-05" x="3569.98" y="7337.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-04" x="3417.98" y="7323.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-03" x="3266.98" y="7304.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-02" x="3115.98" y="7279.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-19-seat-01" x="2966.98" y="7248.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-20">
+        <rect id="sec-2-row-20-seat-12" x="4634.98" y="7492.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-11" x="4485.98" y="7523.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-10" x="4334.98" y="7548.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-09" x="4182.98" y="7567.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-08" x="4031.98" y="7580.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-07" x="3878.98" y="7588.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-06" x="3722.98" y="7587.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-05" x="3569.98" y="7580.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-04" x="3417.98" y="7567.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-03" x="3266.98" y="7548.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-02" x="3115.98" y="7522.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-20-seat-01" x="2966.98" y="7491.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-21">
+        <rect id="sec-2-row-21-seat-12" x="4633.98" y="7726.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-11" x="4484.98" y="7760.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-10" x="4334.98" y="7788.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-09" x="4183.98" y="7809.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-08" x="4031.98" y="7823.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-07" x="3879.98" y="7831.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-06" x="3723.98" y="7831.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-05" x="3570.98" y="7823.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-04" x="3418.98" y="7808.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-03" x="3267.98" y="7787.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-02" x="3117.98" y="7759.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-21-seat-01" x="2969.98" y="7725.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-22">
+        <rect id="sec-2-row-22-seat-10" x="4483.98" y="7998.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-09" x="4333.98" y="8028.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-08" x="4182.98" y="8050.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-07" x="4030.98" y="8066.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-06" x="3878.98" y="8074.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-05" x="3722.98" y="8074.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-04" x="3570.98" y="8066.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-03" x="3418.98" y="8050.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-02" x="3267.98" y="8027.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-22-seat-01" x="3117.98" y="7997.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <g id="sec-2-row-23">
+        <rect id="sec-2-row-23-seat-08" x="4332.98" y="8268.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-07" x="4181.98" y="8292.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-06" x="4030.98" y="8309.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-05" x="3877.98" y="8318.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-04" x="3722.98" y="8318.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-03" x="3569.98" y="8309.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-02" x="3418.98" y="8292.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+        <rect id="sec-2-row-23-seat-01" x="3267.98" y="8267.39" width="90" height="90" rx="10" fill="#E6E8EC" />
+      </g>
+      <path id="BG Overlay_2" d="M3843.09 8627.31C3518.05 8627.31 3045.63 8588.76 2878.4 8574.16C2863.33 8572.84 2849.82 8561.33 2845.79 8543.71C2716.81 7980.04 2584.75 7158.55 2552.85 6081.32C2519.47 4954.15 2605.65 4092.04 2700 3512.25C2747.17 3222.34 2796.39 3003 2833.73 2856.38C2852.4 2783.07 2868.11 2727.94 2879.1 2691.26C2882.75 2679.08 2885.88 2668.93 2888.43 2660.83C3177.4 2747.39 3506.15 2811.87 3844.46 2811.87C4177.44 2811.87 4506.84 2749.4 4800.14 2664.92C4802.45 2672.28 4805.16 2681.07 4808.25 2691.31C4819.29 2727.99 4835.06 2783.12 4853.82 2856.43C4891.34 3003.04 4940.79 3222.38 4988.18 3512.28C5082.98 4092.06 5169.56 4954.15 5136.03 6081.31C5103.98 7158.51 4971.3 7979.98 4841.71 8543.64C4837.67 8561.23 4824.16 8572.72 4809.1 8574.04C4643.07 8588.55 4168.99 8627.31 3843.09 8627.31Z" fill="#E6E8EC" stroke="#B1B5C4" stroke-width="35.2253" />
+      <g id="Orchestra Center">
+        <path d="M3447.79 5260.01C3435.64 5260.01 3424.43 5257.19 3414.16 5251.56C3404.02 5245.79 3395.94 5237.84 3389.93 5227.7C3384.04 5217.43 3381.1 5205.9 3381.1 5193.13C3381.1 5180.35 3384.04 5168.89 3389.93 5158.75C3395.94 5148.6 3404.02 5140.71 3414.16 5135.08C3424.43 5129.32 3435.64 5126.44 3447.79 5126.44C3460.06 5126.44 3471.27 5129.32 3481.42 5135.08C3491.69 5140.71 3499.77 5148.6 3505.65 5158.75C3511.54 5168.89 3514.48 5180.35 3514.48 5193.13C3514.48 5205.9 3511.54 5217.43 3505.65 5227.7C3499.77 5237.84 3491.69 5245.79 3481.42 5251.56C3471.27 5257.19 3460.06 5260.01 3447.79 5260.01ZM3447.79 5241.41C3456.43 5241.41 3464.13 5239.47 3470.9 5235.59C3477.66 5231.58 3482.92 5225.94 3486.68 5218.68C3490.56 5211.29 3492.5 5202.77 3492.5 5193.13C3492.5 5183.48 3490.56 5175.03 3486.68 5167.77C3482.92 5160.5 3477.66 5154.93 3470.9 5151.05C3464.13 5147.16 3456.43 5145.22 3447.79 5145.22C3439.15 5145.22 3431.45 5147.16 3424.68 5151.05C3417.92 5154.93 3412.6 5160.5 3408.71 5167.77C3404.96 5175.03 3403.08 5183.48 3403.08 5193.13C3403.08 5202.77 3404.96 5211.29 3408.71 5218.68C3412.6 5225.94 3417.92 5231.58 3424.68 5235.59C3431.45 5239.47 3439.15 5241.41 3447.79 5241.41ZM3556.98 5170.21C3560.11 5164.95 3564.24 5160.88 3569.37 5158C3574.64 5154.99 3580.83 5153.49 3587.97 5153.49V5175.66H3582.53C3574.13 5175.66 3567.75 5177.79 3563.36 5182.04C3559.1 5186.3 3556.98 5193.69 3556.98 5204.21V5258.69H3535.56V5155.18H3556.98V5170.21ZM3600.52 5206.84C3600.52 5196.2 3602.65 5186.87 3606.91 5178.85C3611.29 5170.71 3617.3 5164.45 3624.94 5160.06C3632.58 5155.68 3641.35 5153.49 3651.25 5153.49C3663.77 5153.49 3674.1 5156.49 3682.24 5162.51C3690.51 5168.39 3696.08 5176.85 3698.96 5187.87H3675.86C3673.98 5182.73 3670.97 5178.73 3666.84 5175.84C3662.71 5172.96 3657.51 5171.52 3651.25 5171.52C3642.48 5171.52 3635.46 5174.66 3630.2 5180.92C3625.07 5187.05 3622.5 5195.7 3622.5 5206.84C3622.5 5217.99 3625.07 5226.69 3630.2 5232.96C3635.46 5239.22 3642.48 5242.35 3651.25 5242.35C3663.64 5242.35 3671.85 5236.9 3675.86 5226.01H3698.96C3695.96 5236.53 3690.32 5244.92 3682.06 5251.18C3673.79 5257.32 3663.52 5260.39 3651.25 5260.39C3641.35 5260.39 3632.58 5258.19 3624.94 5253.81C3617.3 5249.3 3611.29 5243.04 3606.91 5235.02C3602.65 5226.88 3600.52 5217.49 3600.52 5206.84ZM3773.85 5153.49C3781.74 5153.49 3788.75 5155.18 3794.89 5158.56C3801.15 5161.94 3806.04 5166.95 3809.55 5173.59C3813.18 5180.23 3814.99 5188.24 3814.99 5197.64V5258.69H3793.76V5200.83C3793.76 5191.56 3791.45 5184.49 3786.81 5179.6C3782.18 5174.59 3775.85 5172.09 3767.84 5172.09C3759.82 5172.09 3753.44 5174.59 3748.68 5179.6C3744.04 5184.49 3741.72 5191.56 3741.72 5200.83V5258.69H3720.31V5119.67H3741.72V5167.2C3745.36 5162.82 3749.93 5159.44 3755.44 5157.06C3761.08 5154.68 3767.21 5153.49 3773.85 5153.49ZM3937.19 5204.4C3937.19 5208.28 3936.93 5211.79 3936.43 5214.92H3857.34C3857.97 5223.19 3861.04 5229.83 3866.55 5234.84C3872.06 5239.85 3878.82 5242.35 3886.84 5242.35C3898.36 5242.35 3906.5 5237.53 3911.26 5227.88H3934.37C3931.24 5237.4 3925.54 5245.23 3917.27 5251.37C3909.13 5257.38 3898.99 5260.39 3886.84 5260.39C3876.94 5260.39 3868.05 5258.19 3860.16 5253.81C3852.39 5249.3 3846.26 5243.04 3841.75 5235.02C3837.36 5226.88 3835.17 5217.49 3835.17 5206.84C3835.17 5196.2 3837.3 5186.87 3841.56 5178.85C3845.94 5170.71 3852.02 5164.45 3859.78 5160.06C3867.67 5155.68 3876.69 5153.49 3886.84 5153.49C3896.61 5153.49 3905.31 5155.62 3912.95 5159.88C3920.59 5164.13 3926.54 5170.15 3930.8 5177.91C3935.06 5185.55 3937.19 5194.38 3937.19 5204.4ZM3914.83 5197.64C3914.7 5189.75 3911.89 5183.42 3906.38 5178.66C3900.86 5173.9 3894.04 5171.52 3885.9 5171.52C3878.51 5171.52 3872.18 5173.9 3866.92 5178.66C3861.66 5183.3 3858.53 5189.62 3857.53 5197.64H3914.83ZM3995.84 5260.39C3987.69 5260.39 3980.37 5258.95 3973.85 5256.06C3967.47 5253.06 3962.39 5249.05 3958.64 5244.04C3954.88 5238.91 3952.88 5233.21 3952.63 5226.95H3974.79C3975.17 5231.33 3977.24 5235.02 3980.99 5238.03C3984.88 5240.91 3989.7 5242.35 3995.46 5242.35C4001.47 5242.35 4006.11 5241.22 4009.36 5238.97C4012.74 5236.59 4014.43 5233.58 4014.43 5229.95C4014.43 5226.07 4012.56 5223.19 4008.8 5221.31C4005.17 5219.43 3999.34 5217.36 3991.33 5215.11C3983.56 5212.98 3977.24 5210.91 3972.35 5208.91C3967.47 5206.91 3963.21 5203.84 3959.58 5199.7C3956.07 5195.57 3954.32 5190.12 3954.32 5183.36C3954.32 5177.85 3955.94 5172.84 3959.2 5168.33C3962.46 5163.7 3967.09 5160.06 3973.1 5157.43C3979.24 5154.8 3986.25 5153.49 3994.14 5153.49C4005.92 5153.49 4015.37 5156.49 4022.51 5162.51C4029.78 5168.39 4033.66 5176.47 4034.16 5186.74H4012.74C4012.37 5182.11 4010.49 5178.41 4007.11 5175.66C4003.73 5172.9 3999.15 5171.52 3993.39 5171.52C3987.76 5171.52 3983.44 5172.59 3980.43 5174.72C3977.42 5176.85 3975.92 5179.66 3975.92 5183.17C3975.92 5185.93 3976.92 5188.24 3978.93 5190.12C3980.93 5192 3983.37 5193.5 3986.25 5194.63C3989.13 5195.63 3993.39 5196.95 3999.03 5198.58C4006.54 5200.58 4012.68 5202.65 4017.44 5204.78C4022.32 5206.78 4026.52 5209.79 4030.03 5213.79C4033.53 5217.8 4035.35 5223.13 4035.48 5229.76C4035.48 5235.65 4033.85 5240.91 4030.59 5245.54C4027.33 5250.18 4022.7 5253.81 4016.69 5256.44C4010.8 5259.07 4003.85 5260.39 3995.84 5260.39ZM4083.6 5172.65V5229.95C4083.6 5233.83 4084.48 5236.65 4086.23 5238.41C4088.11 5240.03 4091.24 5240.85 4095.63 5240.85H4108.78V5258.69H4091.87C4082.23 5258.69 4074.84 5256.44 4069.7 5251.93C4064.57 5247.42 4062 5240.1 4062 5229.95V5172.65H4049.79V5155.18H4062V5129.44H4083.6V5155.18H4108.78V5172.65H4083.6ZM4149.93 5170.21C4153.07 5164.95 4157.2 5160.88 4162.33 5158C4167.59 5154.99 4173.79 5153.49 4180.93 5153.49V5175.66H4175.48C4167.09 5175.66 4160.71 5177.79 4156.32 5182.04C4152.06 5186.3 4149.93 5193.69 4149.93 5204.21V5258.69H4128.52V5155.18H4149.93V5170.21ZM4193.48 5206.47C4193.48 5196.07 4195.61 5186.87 4199.87 5178.85C4204.25 5170.84 4210.14 5164.64 4217.53 5160.25C4225.04 5155.74 4233.31 5153.49 4242.33 5153.49C4250.47 5153.49 4257.54 5155.12 4263.56 5158.37C4269.69 5161.5 4274.58 5165.45 4278.21 5170.21V5155.18H4299.81V5258.69H4278.21V5243.29C4274.58 5248.17 4269.63 5252.24 4263.37 5255.5C4257.11 5258.76 4249.97 5260.39 4241.95 5260.39C4233.06 5260.39 4224.92 5258.13 4217.53 5253.62C4210.14 5248.99 4204.25 5242.6 4199.87 5234.46C4195.61 5226.19 4193.48 5216.86 4193.48 5206.47ZM4278.21 5206.84C4278.21 5199.7 4276.71 5193.5 4273.7 5188.24C4270.82 5182.98 4267 5178.98 4262.24 5176.22C4257.48 5173.47 4252.35 5172.09 4246.83 5172.09C4241.32 5172.09 4236.19 5173.47 4231.43 5176.22C4226.67 5178.85 4222.79 5182.8 4219.78 5188.06C4216.9 5193.19 4215.46 5199.33 4215.46 5206.47C4215.46 5213.61 4216.9 5219.87 4219.78 5225.25C4222.79 5230.64 4226.67 5234.77 4231.43 5237.65C4236.31 5240.41 4241.45 5241.79 4246.83 5241.79C4252.35 5241.79 4257.48 5240.41 4262.24 5237.65C4267 5234.9 4270.82 5230.89 4273.7 5225.63C4276.71 5220.24 4278.21 5213.98 4278.21 5206.84ZM2863.83 5581.8C2863.83 5541.88 2873.03 5506.07 2891.42 5474.36C2910.21 5442.66 2935.46 5418 2967.16 5400.39C2999.25 5382.39 3034.28 5373.38 3072.25 5373.38C3115.69 5373.38 3154.24 5384.15 3187.9 5405.67C3221.95 5426.81 3246.61 5456.95 3261.88 5496.09H3181.45C3170.88 5474.56 3156.2 5458.51 3137.41 5447.94C3118.63 5437.38 3096.9 5432.09 3072.25 5432.09C3045.24 5432.09 3021.17 5438.16 3000.04 5450.29C2978.9 5462.43 2962.27 5479.84 2950.13 5502.54C2938.39 5525.24 2932.52 5551.66 2932.52 5581.8C2932.52 5611.94 2938.39 5638.36 2950.13 5661.06C2962.27 5683.76 2978.9 5701.37 3000.04 5713.9C3021.17 5726.03 3045.24 5732.1 3072.25 5732.1C3096.9 5732.1 3118.63 5726.81 3137.41 5716.24C3156.2 5705.68 3170.88 5689.63 3181.45 5668.1H3261.88C3246.61 5707.24 3221.95 5737.38 3187.9 5758.51C3154.24 5779.65 3115.69 5790.22 3072.25 5790.22C3033.89 5790.22 2998.86 5781.41 2967.16 5763.8C2935.46 5745.79 2910.21 5720.94 2891.42 5689.24C2873.03 5657.54 2863.83 5621.72 2863.83 5581.8ZM3636.7 5617.03C3636.7 5629.16 3635.91 5640.12 3634.35 5649.9H3387.18C3389.14 5675.74 3398.73 5696.48 3415.95 5712.13C3433.17 5727.79 3454.31 5735.62 3479.36 5735.62C3515.36 5735.62 3540.8 5720.55 3555.68 5690.41H3627.89C3618.1 5720.16 3600.3 5744.62 3574.46 5763.8C3549.02 5782.59 3517.32 5791.98 3479.36 5791.98C3448.44 5791.98 3420.65 5785.13 3395.99 5771.43C3371.72 5757.34 3352.55 5737.77 3338.46 5712.72C3324.76 5687.28 3317.91 5657.93 3317.91 5624.66C3317.91 5591.39 3324.56 5562.23 3337.87 5537.18C3351.57 5511.74 3370.55 5492.17 3394.82 5478.47C3419.47 5464.77 3447.65 5457.93 3479.36 5457.93C3509.88 5457.93 3537.09 5464.58 3560.96 5477.89C3584.84 5491.19 3603.43 5509.98 3616.73 5534.25C3630.04 5558.12 3636.7 5585.71 3636.7 5617.03ZM3566.83 5595.89C3566.44 5571.23 3557.63 5551.47 3540.41 5536.6C3523.19 5521.72 3501.86 5514.29 3476.42 5514.29C3453.33 5514.29 3433.56 5521.72 3417.12 5536.6C3400.69 5551.08 3390.9 5570.84 3387.77 5595.89H3566.83ZM3865.77 5457.93C3891.21 5457.93 3913.91 5463.21 3933.87 5473.78C3954.22 5484.34 3970.08 5500 3981.43 5520.74C3992.78 5541.49 3998.45 5566.54 3998.45 5595.89V5786.69H3932.11V5605.87C3932.11 5576.91 3924.87 5554.79 3910.39 5539.53C3895.91 5523.87 3876.14 5516.05 3851.09 5516.05C3826.04 5516.05 3806.08 5523.87 3791.21 5539.53C3776.73 5554.79 3769.49 5576.91 3769.49 5605.87V5786.69H3702.56V5463.21H3769.49V5500.2C3780.45 5486.89 3794.34 5476.52 3811.17 5469.08C3828.39 5461.64 3846.59 5457.93 3865.77 5457.93ZM4161.91 5517.81V5696.87C4161.91 5709 4164.65 5717.81 4170.13 5723.29C4176 5728.38 4185.78 5730.92 4199.48 5730.92H4240.58V5786.69H4187.74C4157.6 5786.69 4134.51 5779.65 4118.46 5765.56C4102.41 5751.47 4094.39 5728.57 4094.39 5696.87V5517.81H4056.23V5463.21H4094.39V5382.78H4161.91V5463.21H4240.58V5517.81H4161.91ZM4598.74 5617.03C4598.74 5629.16 4597.96 5640.12 4596.39 5649.9H4349.23C4351.19 5675.74 4360.77 5696.48 4378 5712.13C4395.22 5727.79 4416.35 5735.62 4441.4 5735.62C4477.41 5735.62 4502.85 5720.55 4517.72 5690.41H4589.93C4580.15 5720.16 4562.34 5744.62 4536.51 5763.8C4511.07 5782.59 4479.37 5791.98 4441.4 5791.98C4410.48 5791.98 4382.69 5785.13 4358.03 5771.43C4333.77 5757.34 4314.59 5737.77 4300.5 5712.72C4286.8 5687.28 4279.95 5657.93 4279.95 5624.66C4279.95 5591.39 4286.61 5562.23 4299.91 5537.18C4313.61 5511.74 4332.59 5492.17 4356.86 5478.47C4381.52 5464.77 4409.7 5457.93 4441.4 5457.93C4471.93 5457.93 4499.13 5464.58 4523.01 5477.89C4546.88 5491.19 4565.47 5509.98 4578.78 5534.25C4592.09 5558.12 4598.74 5585.71 4598.74 5617.03ZM4528.88 5595.89C4528.49 5571.23 4519.68 5551.47 4502.46 5536.6C4485.24 5521.72 4463.91 5514.29 4438.47 5514.29C4415.37 5514.29 4395.61 5521.72 4379.17 5536.6C4362.73 5551.08 4352.95 5570.84 4349.82 5595.89H4528.88ZM4731.53 5510.18C4741.32 5493.74 4754.23 5481.02 4770.28 5472.02C4786.72 5462.62 4806.09 5457.93 4828.4 5457.93V5527.2H4811.38C4785.15 5527.2 4765.19 5533.86 4751.49 5547.16C4738.19 5560.47 4731.53 5583.56 4731.53 5616.44V5786.69H4664.6V5463.21H4731.53V5510.18Z" fill="#B1B5C4" />
+      </g>
+    </g>
+    <g id="Sec-3">
+      <path id="BG_3" d="M6652.87 9266.21C6651.28 9295.43 6628.86 9318.96 6599.7 9321.37C6386.55 9338.99 5531.92 9407.42 4701.34 9442.67C4688.65 9443.21 4679.8 9430.25 4684.75 9418.56C4699.93 9382.7 4721.63 9329.06 4747.87 9257.68C4800.35 9114.93 4870.98 8901.23 4943.82 8616.89C5089.51 8048.2 5244.07 7196.99 5280.14 6065.69C5316.2 4934.48 5223.12 4068.49 5120.91 3485.03C5069.81 3193.3 5016.43 2972.21 4975.77 2823.92C4955.45 2749.77 4938.3 2693.82 4926.21 2656.35C4918.95 2633.82 4931.73 2609.55 4954.45 2602.95C5438.92 2462.25 5759.11 2276.52 5893.14 2206.83C5922.27 2191.68 5958.34 2202.54 5973.87 2231.47L6935.84 3913.16C6940.94 3922.66 6943.33 3933.37 6942.75 3944.13L6652.87 9266.21Z" fill="#FCFCFD" />
+      <g id="sec-3-row-1">
+        <rect id="sec-3-row-1-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(13.53 -13559.553 -20418.621)" fill="#E6E8EC" />
+        <rect id="sec-3-row-1-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15.687 -11964.936 -17933.88)" fill="#E6E8EC" />
+        <rect id="sec-3-row-1-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.231 -10158.08 -14770.715)" fill="#E6E8EC" />
+        <rect id="sec-3-row-1-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -8165.594 -10939.238)" fill="#E6E8EC" />
+        <rect id="sec-3-row-1-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(29.295 -7420.338 -9689.961)" fill="#E6E8EC" />
+        <rect id="sec-3-row-1-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(31.453 -7020.167 -9169.24)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-2">
+        <rect id="sec-3-row-2-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(13.53 -14428.707 -20683.117)" fill="#E6E8EC" />
+        <rect id="sec-3-row-2-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15.687 -12719.325 -18148.02)" fill="#E6E8EC" />
+        <rect id="sec-3-row-2-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.231 -10779.551 -14926.535)" fill="#E6E8EC" />
+        <rect id="sec-3-row-2-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -8637.31 -11029.347)" fill="#E6E8EC" />
+        <rect id="sec-3-row-2-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(29.295 -7838.286 -9756.48)" fill="#E6E8EC" />
+        <rect id="sec-3-row-2-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(31.453 -7411.198 -9223.947)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-3">
+        <rect id="sec-3-row-3-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(13.53 -15297.86 -20947.613)" fill="#E6E8EC" />
+        <rect id="sec-3-row-3-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15.687 -13473.714 -18362.16)" fill="#E6E8EC" />
+        <rect id="sec-3-row-3-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.231 -11401.022 -15082.354)" fill="#E6E8EC" />
+        <rect id="sec-3-row-3-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -9109.025 -11119.457)" fill="#E6E8EC" />
+        <rect id="sec-3-row-3-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(29.295 -8256.235 -9822.997)" fill="#E6E8EC" />
+        <rect id="sec-3-row-3-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(31.453 -7802.23 -9278.655)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-4">
+        <rect id="sec-3-row-4-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(11.278 -18976.089 -25068.947)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(13.53 -16167.015 -21212.11)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15.687 -14228.104 -18576.3)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.231 -12022.494 -15238.173)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -9580.74 -11209.567)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(29.7 -8592.575 -9726.717)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(28.654 -8738.812 -10438.673)" fill="#E6E8EC" />
+        <rect id="sec-3-row-4-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(29.825 -8438.183 -10220.825)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-5">
+        <rect id="sec-3-row-5-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -11632.251 -12143.505)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -11601.648 -12546.083)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -11554.93 -12949.059)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -11487.89 -13358.637)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(24.334 -10482.785 -12073.694)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -9982.654 -11628.653)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -9899.729 -11960.628)" fill="#E6E8EC" />
+        <rect id="sec-3-row-5-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -9804.367 -12288.542)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-6">
+        <rect id="sec-3-row-6-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -12281.181 -12248.26)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -12242.27 -12649.738)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(21.75 -12192.949 -13053.215)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.75 -10655.23 -11025.004)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(26.75 -10305.423 -10852.936)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(26.75 -10245.026 -11178.34)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(26.75 -10174.737 -11499.431)" fill="#E6E8EC" />
+        <rect id="sec-3-row-6-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(26.75 -10095.538 -11820.419)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-7">
+        <rect id="sec-3-row-7-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.75 -13976.705 -13840.183)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.75 -13926.197 -14281.034)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.75 -13863.7 -14721.013)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(19.75 -13782.598 -15173.109)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -11141.124 -11430.585)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -11077.697 -11767.31)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -11002.334 -12102.16)" fill="#E6E8EC" />
+        <rect id="sec-3-row-7-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(25.752 -10919.409 -12434.137)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-8">
+        <rect id="sec-3-row-8-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18591.734 -18565.802)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18517.617 -19147.388)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18431.106 -19722.878)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18321.308 -20297.57)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18193.52 -20882.359)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18048.003 -21450.162)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -17882.535 -22012.865)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -17704.668 -22569.434)" fill="#E6E8EC" />
+        <rect id="sec-3-row-8-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -17510.614 -23120.446)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-9">
+        <rect id="sec-3-row-9-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -19398.597 -18648.898)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -19359.16 -19229.782)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -19296.437 -19809.868)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -19222.32 -20391.454)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -19122.617 -20984.135)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -19004.685 -21556.035)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18871.1 -22126.131)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18725.121 -22690.132)" fill="#E6E8EC" />
+        <rect id="sec-3-row-9-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(15 -18559.653 -23252.835)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-10">
+        <rect id="sec-3-row-10-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24544.225 -23842.58)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24534.1 -24569.96)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24504.943 -25299.294)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24452 -26031.128)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24376.27 -26774.975)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24274.254 -27497.537)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24152.71 -28217.342)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -24006.88 -28934.89)" fill="#E6E8EC" />
+        <rect id="sec-3-row-10-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -23845.778 -29644.423)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-11">
+        <rect id="sec-3-row-11-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25582.275 -23834.48)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25620.717 -24566.328)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25639.631 -25295.419)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25634.76 -26027.01)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25602.797 -26775.877)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25549.4 -27502.948)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25471.67 -28227.767)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25374.412 -28949.829)" fill="#E6E8EC" />
+        <rect id="sec-3-row-11-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -25258.125 -29673.89)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-12">
+        <rect id="sec-3-row-12-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26564.253 -23750.51)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26640.753 -24478.357)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26692.967 -25203.948)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26726.152 -25931.538)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26732.795 -26681.157)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26718.408 -27413.748)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26679.736 -28144.082)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26621.535 -28871.658)" fill="#E6E8EC" />
+        <rect id="sec-3-row-12-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(12 -26543.805 -29596.477)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-13">
+        <rect id="sec-3-row-13-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77726.32 -76584.44)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77788.006 -78761.437)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77807.229 -80953.966)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77754.366 -83134.82)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77617.594 -85375.948)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77421.55 -87561.802)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -77152.915 -89721.52)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -76827.507 -91897.557)" fill="#E6E8EC" />
+        <rect id="sec-3-row-13-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -76443.827 -94046.957)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-14">
+        <rect id="sec-3-row-14-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -80775.08 -76449.303)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -80951.311 -78622.3)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -81070.76 -80811.33)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -81118.624 -83003.003)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -81096.397 -85240.13)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -81000.58 -87422.484)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -80847.49 -89606.838)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -80622.31 -91779.375)" fill="#E6E8EC" />
+        <rect id="sec-3-row-14-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -80339.856 -93953.911)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-15">
+        <rect id="sec-3-row-15-seat-01" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -83885.111 -76426.712)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-02" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84161.57 -78596.21)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-03" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84380.746 -80767.42)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-04" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84528.837 -82955.593)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-05" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84606.837 -85189.22)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-06" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84611.746 -87382.393)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-07" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84544.565 -89563.747)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-08" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84420.111 -91747.102)" fill="#E6E8EC" />
+        <rect id="sec-3-row-15-seat-09" width="90" height="90" rx="10" transform="scale(-1 1) rotate(4 -84238.385 -93932.456)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-16">
+        <rect id="sec-3-row-16-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5520.85 5918.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5672.85 5932.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5824.85 5942.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5977.85 5947.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6134.85 5947.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6286.85 5941.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6439.85 5932.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6591.85 5917.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-16-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6742.85 5899.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-17">
+        <rect id="sec-3-row-17-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5509.85 6167.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5661.85 6181.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5813.85 6191.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5965.85 6196.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6122.85 6196.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6275.85 6191.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6427.85 6181.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6579.85 6167.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-17-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6731.85 6149.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-18">
+        <rect id="sec-3-row-18-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5506.85 6417.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5658.85 6431.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5810.85 6441.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5962.85 6446.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6119.85 6446.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6272.85 6441.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6424.85 6431.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6576.85 6417.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-18-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6728.85 6398.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-19">
+        <rect id="sec-3-row-19-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5485.85 6666.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5637.85 6681.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5789.85 6690.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5942.85 6695.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6098.85 6695.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6251.85 6690.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6403.85 6680.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6555.85 6666.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-19-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6707.85 6648.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-20">
+        <rect id="sec-3-row-20-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5476.85 6916.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5628.85 6930.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5781.85 6940.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5933.85 6945.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6090.85 6945.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6242.85 6940.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6395.85 6930.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6547.85 6916.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-20-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6698.85 6897.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-21">
+        <rect id="sec-3-row-21-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5453.85 7165.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5605.85 7180.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5757.85 7189.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5910.85 7194.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6066.85 7194.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6219.85 7189.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6371.85 7179.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6523.85 7165.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-21-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6675.85 7147.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-22">
+        <rect id="sec-3-row-22-seat-01" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5382.85 7505.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-02" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5534.85 7519.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-03" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5687.85 7529.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-04" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5839.85 7534.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-05" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5996.85 7534.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-06" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6148.85 7529.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-07" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6301.85 7519.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-08" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6453.85 7505.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-22-seat-09" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6604.85 7486.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-23">
+        <rect id="sec-3-row-23-seat-01" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5371.85 7754.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-02" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5523.85 7769.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-03" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5675.85 7778.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-04" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5828.85 7783.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-05" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5984.85 7783.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-06" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6137.85 7778.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-07" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6289.85 7768.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-08" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6441.85 7754.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-23-seat-09" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6593.85 7736.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-24">
+        <rect id="sec-3-row-24-seat-01" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5371.85 8004.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-02" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5523.85 8018.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-03" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5675.85 8028.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-04" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5828.85 8033.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-05" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5984.85 8033.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-06" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6137.85 8028.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-07" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6289.85 8018.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-08" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6441.85 8004.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-24-seat-09" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6593.85 7985.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-25">
+        <rect id="sec-3-row-25-seat-01" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5309.85 8263.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-02" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5470.85 8267.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-03" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5622.85 8277.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-04" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5775.85 8282.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-05" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 5931.85 8282.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-06" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6084.85 8277.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-07" width="90" height="90" rx="10" transform="matrix(0 -1 -1 0 6236.85 8267.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6388.85 8163.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-25-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6540.85 8145.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-26">
+        <rect id="sec-3-row-26-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5285.85 8413.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5438.85 8427.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5590.85 8437.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5742.85 8442.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5899.85 8442.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6051.85 8437.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6204.85 8427.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6356.85 8413.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-26-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6508.85 8394.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-27">
+        <rect id="sec-3-row-27-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5265.85 8662.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5417.85 8677.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5569.85 8686.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5722.85 8691.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5878.85 8691.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6031.85 8686.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6183.85 8676.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6335.85 8662.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-27-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6487.85 8644.39)" fill="#E6E8EC" />
+      </g>
+      <g id="sec-3-row-28">
+        <rect id="sec-3-row-28-seat-01" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5215.85 8912.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-02" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5367.85 8926.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-03" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5519.85 8936.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-04" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5672.85 8941.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-05" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5830.21 8941.47)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-06" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 5981.85 8936.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-07" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6133.85 8926.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-08" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6286.85 8912.39)" fill="#E6E8EC" />
+        <rect id="sec-3-row-28-seat-09" width="90" height="90" rx="10" transform="matrix(-1 0 0 1 6437.85 8893.39)" fill="#E6E8EC" />
+      </g>
+      <path id="BG Overlay_3" d="M5958 2239.73L5958.11 2239.94L5958.23 2240.14L6919.97 3921.42C6920.01 3921.49 6920.04 3921.55 6920.08 3921.62C6923.57 3928.22 6925.21 3935.64 6924.8 3943.1L6634.93 9265.17C6633.81 9285.79 6618.09 9302.07 6597.89 9303.74C6384.85 9321.35 5530.82 9389.73 4700.77 9424.97C4716.05 9388.85 4737.8 9335.08 4764.05 9263.68C4816.73 9120.38 4887.53 8906.12 4960.53 8621.18C5106.53 8051.29 5261.28 7198.81 5297.38 6066.18C5333.49 4933.71 5240.31 4066.52 5137.9 3481.92C5086.7 3189.63 5033.2 2968 4992.4 2819.19C4972.01 2744.79 4954.79 2688.59 4942.62 2650.87C4938.38 2637.73 4945.89 2623.6 4959.01 2619.79C5391.33 2494.24 5693.58 2332.87 5849.33 2249.71C5868.83 2239.3 5886.04 2230.12 5900.91 2222.38C5921.61 2211.62 5947.09 2219.41 5958 2239.73Z" fill="#E6DFF8" stroke="#6531F5" stroke-width="35.2253" />
+      <g id="Orchestra Right">
+        <path d="M6235.68 5250.19C6235.68 5238.04 6238.5 5226.83 6244.14 5216.56C6249.9 5206.41 6257.85 5198.34 6268 5192.32C6278.27 5186.44 6289.79 5183.49 6302.57 5183.49C6315.34 5183.49 6326.8 5186.44 6336.95 5192.32C6347.09 5198.34 6354.98 5206.41 6360.62 5216.56C6366.38 5226.83 6369.26 5238.04 6369.26 5250.19C6369.26 5262.46 6366.38 5273.67 6360.62 5283.82C6354.98 5294.09 6347.09 5302.17 6336.95 5308.05C6326.8 5313.94 6315.34 5316.88 6302.57 5316.88C6289.79 5316.88 6278.27 5313.94 6268 5308.05C6257.85 5302.17 6249.9 5294.09 6244.14 5283.82C6238.5 5273.67 6235.68 5262.46 6235.68 5250.19ZM6254.28 5250.19C6254.28 5258.83 6256.23 5266.53 6260.11 5273.3C6264.12 5280.06 6269.75 5285.32 6277.02 5289.08C6284.41 5292.96 6292.92 5294.9 6302.57 5294.9C6312.21 5294.9 6320.66 5292.96 6327.93 5289.08C6335.19 5285.32 6340.77 5280.06 6344.65 5273.3C6348.53 5266.53 6350.47 5258.83 6350.47 5250.19C6350.47 5241.55 6348.53 5233.84 6344.65 5227.08C6340.77 5220.32 6335.19 5214.99 6327.93 5211.11C6320.66 5207.35 6312.21 5205.48 6302.57 5205.48C6292.92 5205.48 6284.41 5207.35 6277.02 5211.11C6269.75 5214.99 6264.12 5220.32 6260.11 5227.08C6256.23 5233.84 6254.28 5241.55 6254.28 5250.19ZM6325.49 5359.37C6330.75 5362.5 6334.82 5366.64 6337.7 5371.77C6340.7 5377.03 6342.21 5383.23 6342.21 5390.37L6320.04 5390.37L6320.04 5384.92C6320.04 5376.53 6317.91 5370.14 6313.65 5365.76C6309.39 5361.5 6302 5359.37 6291.48 5359.37L6237 5359.37L6237 5337.96L6340.52 5337.96L6340.52 5359.37L6325.49 5359.37ZM6288.85 5402.92C6299.5 5402.92 6308.83 5405.05 6316.84 5409.31C6324.98 5413.69 6331.25 5419.7 6335.63 5427.34C6340.01 5434.98 6342.21 5443.75 6342.21 5453.64C6342.21 5466.17 6339.2 5476.5 6333.19 5484.64C6327.3 5492.91 6318.85 5498.48 6307.83 5501.36L6307.83 5478.25C6312.96 5476.38 6316.97 5473.37 6319.85 5469.24C6322.73 5465.1 6324.17 5459.91 6324.17 5453.64C6324.17 5444.88 6321.04 5437.86 6314.78 5432.6C6308.64 5427.47 6300 5424.9 6288.85 5424.9C6277.7 5424.9 6269 5427.47 6262.74 5432.6C6256.48 5437.86 6253.34 5444.88 6253.34 5453.64C6253.34 5466.04 6258.79 5474.25 6269.69 5478.25L6269.69 5501.36C6259.17 5498.36 6250.78 5492.72 6244.51 5484.45C6238.38 5476.19 6235.31 5465.92 6235.31 5453.64C6235.31 5443.75 6237.5 5434.98 6241.88 5427.34C6246.39 5419.7 6252.66 5413.69 6260.67 5409.31C6268.81 5405.05 6278.21 5402.92 6288.85 5402.92ZM6342.21 5576.25C6342.21 5584.14 6340.52 5591.15 6337.13 5597.29C6333.75 5603.55 6328.74 5608.44 6322.1 5611.94C6315.47 5615.58 6307.45 5617.39 6298.06 5617.39L6237 5617.39L6237 5596.16L6294.86 5596.16C6304.13 5596.16 6311.21 5593.85 6316.09 5589.21C6321.1 5584.58 6323.61 5578.25 6323.61 5570.24C6323.61 5562.22 6321.1 5555.83 6316.09 5551.07C6311.21 5546.44 6304.13 5544.12 6294.86 5544.12L6237 5544.12L6237 5522.71L6376.02 5522.71L6376.02 5544.12L6328.49 5544.12C6332.88 5547.75 6336.26 5552.33 6338.64 5557.84C6341.02 5563.47 6342.21 5569.61 6342.21 5576.25ZM6291.29 5739.58C6287.41 5739.58 6283.9 5739.33 6280.77 5738.83L6280.77 5659.74C6272.51 5660.37 6265.87 5663.43 6260.86 5668.94C6255.85 5674.46 6253.34 5681.22 6253.34 5689.23C6253.34 5700.76 6258.17 5708.9 6267.81 5713.66L6267.81 5736.77C6258.29 5733.63 6250.46 5727.94 6244.33 5719.67C6238.32 5711.53 6235.31 5701.38 6235.31 5689.23C6235.31 5679.34 6237.5 5670.45 6241.88 5662.56C6246.39 5654.79 6252.66 5648.66 6260.67 5644.15C6268.81 5639.76 6278.21 5637.57 6288.85 5637.57C6299.5 5637.57 6308.83 5639.7 6316.84 5643.96C6324.98 5648.34 6331.25 5654.42 6335.63 5662.18C6340.01 5670.07 6342.21 5679.09 6342.21 5689.23C6342.21 5699 6340.08 5707.71 6335.82 5715.35C6331.56 5722.99 6325.55 5728.94 6317.78 5733.2C6310.14 5737.45 6301.31 5739.58 6291.29 5739.58ZM6298.06 5717.23C6305.95 5717.1 6312.27 5714.28 6317.03 5708.77C6321.79 5703.26 6324.17 5696.44 6324.17 5688.3C6324.17 5680.91 6321.79 5674.58 6317.03 5669.32C6312.4 5664.06 6306.07 5660.93 6298.06 5659.93L6298.06 5717.23ZM6235.31 5798.23C6235.31 5790.09 6236.75 5782.77 6239.63 5776.25C6242.64 5769.87 6246.64 5764.79 6251.65 5761.04C6256.79 5757.28 6262.49 5755.27 6268.75 5755.02L6268.75 5777.19C6264.37 5777.57 6260.67 5779.63 6257.67 5783.39C6254.78 5787.27 6253.34 5792.1 6253.34 5797.86C6253.34 5803.87 6254.47 5808.5 6256.73 5811.76C6259.11 5815.14 6262.11 5816.83 6265.74 5816.83C6269.63 5816.83 6272.51 5814.95 6274.39 5811.2C6276.26 5807.56 6278.33 5801.74 6280.59 5793.72C6282.71 5785.96 6284.78 5779.63 6286.79 5774.75C6288.79 5769.87 6291.86 5765.61 6295.99 5761.97C6300.12 5758.47 6305.57 5756.71 6312.34 5756.71C6317.85 5756.71 6322.86 5758.34 6327.36 5761.6C6332 5764.86 6335.63 5769.49 6338.26 5775.5C6340.89 5781.64 6342.21 5788.65 6342.21 5796.54C6342.21 5808.32 6339.2 5817.77 6333.19 5824.91C6327.3 5832.17 6319.22 5836.06 6308.95 5836.56L6308.95 5815.14C6313.59 5814.77 6317.28 5812.89 6320.04 5809.51C6322.79 5806.12 6324.17 5801.55 6324.17 5795.79C6324.17 5790.16 6323.11 5785.83 6320.98 5782.83C6318.85 5779.82 6316.03 5778.32 6312.52 5778.32C6309.77 5778.32 6307.45 5779.32 6305.57 5781.33C6303.69 5783.33 6302.19 5785.77 6301.06 5788.65C6300.06 5791.53 6298.75 5795.79 6297.12 5801.43C6295.11 5808.94 6293.05 5815.08 6290.92 5819.84C6288.91 5824.72 6285.91 5828.92 6281.9 5832.43C6277.89 5835.93 6272.57 5837.75 6265.93 5837.87C6260.05 5837.87 6254.78 5836.25 6250.15 5832.99C6245.52 5829.73 6241.88 5825.1 6239.25 5819.09C6236.62 5813.2 6235.31 5806.25 6235.31 5798.23ZM6323.04 5886L6265.74 5886C6261.86 5886 6259.04 5886.88 6257.29 5888.63C6255.66 5890.51 6254.85 5893.64 6254.85 5898.03L6254.85 5911.18L6237 5911.18L6237 5894.27C6237 5884.62 6239.25 5877.23 6243.76 5872.1C6248.27 5866.96 6255.6 5864.4 6265.74 5864.4L6323.04 5864.4L6323.04 5852.19L6340.52 5852.19L6340.52 5864.4L6366.25 5864.4L6366.25 5886L6340.52 5886L6340.52 5911.18L6323.04 5911.18L6323.04 5886ZM6325.49 5952.33C6330.75 5955.46 6334.82 5959.6 6337.7 5964.73C6340.7 5969.99 6342.21 5976.19 6342.21 5983.33L6320.04 5983.33L6320.04 5977.88C6320.04 5969.49 6317.91 5963.1 6313.65 5958.72C6309.39 5954.46 6302 5952.33 6291.48 5952.33L6237 5952.33L6237 5930.92L6340.52 5930.92L6340.52 5952.33L6325.49 5952.33ZM6289.23 5995.88C6299.62 5995.88 6308.83 5998.01 6316.84 6002.27C6324.86 6006.65 6331.06 6012.54 6335.44 6019.93C6339.95 6027.44 6342.21 6035.71 6342.21 6044.72C6342.21 6052.86 6340.58 6059.94 6337.32 6065.95C6334.19 6072.09 6330.25 6076.97 6325.49 6080.61L6340.52 6080.61L6340.52 6102.21L6237 6102.21L6237 6080.61L6252.41 6080.61C6247.52 6076.97 6243.45 6072.03 6240.19 6065.77C6236.94 6059.5 6235.31 6052.36 6235.31 6044.35C6235.31 6035.46 6237.56 6027.31 6242.07 6019.93C6246.71 6012.54 6253.09 6006.65 6261.23 6002.27C6269.5 5998.01 6278.83 5995.88 6289.23 5995.88ZM6288.85 6080.61C6295.99 6080.61 6302.19 6079.1 6307.45 6076.1C6312.71 6073.22 6316.72 6069.4 6319.47 6064.64C6322.23 6059.88 6323.61 6054.74 6323.61 6049.23C6323.61 6043.72 6322.23 6038.59 6319.47 6033.83C6316.84 6029.07 6312.9 6025.19 6307.64 6022.18C6302.5 6019.3 6296.37 6017.86 6289.23 6017.86C6282.09 6017.86 6275.83 6019.3 6270.44 6022.18C6265.05 6025.19 6260.92 6029.07 6258.04 6033.83C6255.29 6038.71 6253.91 6043.85 6253.91 6049.23C6253.91 6054.74 6255.29 6059.88 6258.04 6064.64C6260.8 6069.4 6264.8 6073.22 6270.06 6076.1C6275.45 6079.1 6281.71 6080.61 6288.85 6080.61ZM5709 5140.7L5872.21 5046.77L5872.21 4995.69L5709 4995.69L5709 4928.76L6117.03 4928.76L6117.03 5069.66C6117.03 5100.98 6111.55 5127.39 6100.59 5148.92C6089.63 5170.84 6074.95 5187.08 6056.56 5197.65C6038.16 5208.61 6017.61 5214.09 5994.91 5214.09C5968.3 5214.09 5944.03 5206.26 5922.11 5190.6C5900.59 5175.34 5885.91 5151.66 5878.08 5119.57L5709 5220.55L5709 5140.7ZM5925.64 4995.69L5925.64 5069.66C5925.64 5094.71 5931.9 5113.5 5944.42 5126.02C5956.95 5138.94 5973.78 5145.4 5994.91 5145.4C6016.05 5145.4 6032.49 5139.14 6044.23 5126.61C6056.36 5114.09 6062.43 5095.1 6062.43 5069.66L6062.43 4995.69L5925.64 4995.69ZM6075.34 5333.76C6075.34 5321.62 6079.45 5311.45 6087.67 5303.23C6095.89 5295.01 6106.07 5290.9 6118.2 5290.9C6130.33 5290.9 6140.51 5295.01 6148.73 5303.23C6156.95 5311.45 6161.06 5321.62 6161.06 5333.76C6161.06 5345.5 6156.95 5355.48 6148.73 5363.7C6140.51 5371.92 6130.33 5376.03 6118.2 5376.03C6106.07 5376.03 6095.89 5371.92 6087.67 5363.7C6079.45 5355.48 6075.34 5345.5 6075.34 5333.76ZM6032.49 5366.63L5709 5366.63L5709 5299.71L6032.49 5299.71L6032.49 5366.63ZM6037.77 5584.84C6037.77 5609.89 6032.68 5632 6022.51 5651.18C6012.72 5670.75 6000.39 5686.01 5985.52 5696.97L6032.49 5696.97L6032.49 5764.49L5703.72 5764.49C5673.97 5764.49 5647.55 5758.23 5624.46 5745.7C5600.98 5733.18 5582.58 5714.98 5569.27 5691.1C5555.97 5667.62 5549.31 5639.44 5549.31 5606.56C5549.31 5562.72 5559.68 5526.33 5580.43 5497.36C5600.78 5468.4 5628.57 5451.96 5663.79 5448.05L5663.79 5514.39C5646.96 5519.48 5633.46 5530.24 5623.29 5546.68C5612.72 5563.51 5607.43 5583.47 5607.43 5606.56C5607.43 5633.57 5615.65 5655.29 5632.09 5671.73C5648.53 5688.56 5672.4 5696.97 5703.72 5696.97L5757.73 5696.97C5742.46 5685.62 5729.55 5670.16 5718.98 5650.59C5708.8 5631.41 5703.72 5609.5 5703.72 5584.84C5703.72 5556.66 5710.76 5530.83 5724.85 5507.34C5739.33 5484.25 5759.29 5465.86 5784.73 5452.16C5810.57 5438.85 5839.72 5432.2 5872.21 5432.2C5904.7 5432.2 5933.46 5438.85 5958.51 5452.16C5983.56 5465.86 6002.94 5484.25 6016.63 5507.34C6030.72 5530.83 6037.77 5556.66 6037.77 5584.84ZM5871.04 5696.97C5893.35 5696.97 5912.72 5692.28 5929.16 5682.88C5945.6 5673.88 5958.12 5661.94 5966.73 5647.07C5975.34 5632.2 5979.65 5616.15 5979.65 5598.93C5979.65 5581.71 5975.34 5565.66 5966.73 5550.79C5958.51 5535.91 5946.18 5523.78 5929.75 5514.39C5913.7 5505.39 5894.52 5500.88 5872.21 5500.88C5849.9 5500.88 5830.33 5505.39 5813.5 5514.39C5796.67 5523.78 5783.76 5535.91 5774.75 5550.79C5766.14 5566.05 5761.84 5582.1 5761.84 5598.93C5761.84 5616.15 5766.14 5632.2 5774.75 5647.07C5783.36 5661.94 5795.89 5673.88 5812.33 5682.88C5829.16 5692.28 5848.73 5696.97 5871.04 5696.97ZM6037.77 6019.71C6037.77 6044.37 6032.49 6066.29 6021.92 6085.47C6011.35 6105.04 5995.69 6120.3 5974.95 6131.26C5954.21 6142.61 5929.16 6148.29 5899.8 6148.29L5709 6148.29L5709 6081.95L5889.82 6081.95C5918.79 6081.95 5940.9 6074.71 5956.16 6060.22C5971.82 6045.74 5979.65 6025.98 5979.65 6000.93C5979.65 5975.88 5971.82 5955.92 5956.16 5941.05C5940.9 5926.56 5918.79 5919.32 5889.82 5919.32L5709 5919.32L5709 5852.39L6143.45 5852.39L6143.45 5919.32L5994.91 5919.32C6008.61 5930.67 6019.18 5944.96 6026.61 5962.18C6034.05 5979.79 6037.77 5998.97 6037.77 6019.71ZM5977.89 6311.74L5798.82 6311.74C5786.69 6311.74 5777.88 6314.48 5772.41 6319.96C5767.32 6325.83 5764.77 6335.62 5764.77 6349.31L5764.77 6390.41L5709 6390.41L5709 6337.57C5709 6307.44 5716.04 6284.34 5730.14 6268.3C5744.23 6252.25 5767.12 6244.23 5798.82 6244.23L5977.89 6244.23L5977.89 6206.06L6032.49 6206.06L6032.49 6244.23L6112.92 6244.23L6112.92 6311.74L6032.49 6311.74L6032.49 6390.41L5977.89 6390.41L5977.89 6311.74Z" fill="#6531F5" fill-opacity="0.4" />
+      </g>
+    </g>
+    <g id="Stage">
+      <path id="Scene BG" d="M5921.3 2015.66C5921.3 2015.66 5114.06 2640.05 3843.01 2640.05C2571.96 2640.05 1764.72 2015.66 1764.72 2015.66" stroke="#B1B5C4" stroke-width="35.2253" stroke-linecap="round" />
+      <path id="Stage_2" d="M3343.98 1718.99C3326.17 1718.99 3310.14 1715.94 3295.9 1709.83C3281.65 1703.47 3270.46 1694.57 3262.31 1683.12C3254.17 1671.67 3250.1 1658.32 3250.1 1643.05H3296.66C3297.68 1654.5 3302.13 1663.91 3310.02 1671.29C3318.16 1678.67 3329.48 1682.36 3343.98 1682.36C3358.99 1682.36 3370.69 1678.79 3379.09 1671.67C3387.48 1664.29 3391.68 1654.88 3391.68 1643.43C3391.68 1634.53 3389.01 1627.28 3383.67 1621.68C3378.58 1616.08 3372.09 1611.76 3364.2 1608.71C3356.57 1605.65 3345.89 1602.35 3332.15 1598.78C3314.85 1594.2 3300.73 1589.63 3289.79 1585.05C3279.11 1580.21 3269.95 1572.83 3262.31 1562.91C3254.68 1552.99 3250.87 1539.76 3250.87 1523.23C3250.87 1507.96 3254.68 1494.61 3262.31 1483.16C3269.95 1471.71 3280.63 1462.93 3294.37 1456.83C3308.11 1450.72 3324.01 1447.67 3342.07 1447.67C3367.77 1447.67 3388.75 1454.16 3405.04 1467.13C3421.57 1479.85 3430.73 1497.4 3432.51 1519.79H3384.43C3383.67 1510.12 3379.09 1501.86 3370.69 1494.99C3362.3 1488.12 3351.23 1484.68 3337.49 1484.68C3325.03 1484.68 3314.85 1487.86 3306.96 1494.22C3299.08 1500.58 3295.13 1509.74 3295.13 1521.7C3295.13 1529.84 3297.55 1536.58 3302.38 1541.92C3307.47 1547.01 3313.83 1551.08 3321.46 1554.14C3329.1 1557.19 3339.53 1560.5 3352.76 1564.06C3370.31 1568.89 3384.56 1573.73 3395.5 1578.56C3406.69 1583.39 3416.1 1590.9 3423.73 1601.07C3431.62 1611 3435.56 1624.35 3435.56 1641.14C3435.56 1654.63 3431.88 1667.35 3424.5 1679.3C3417.37 1691.26 3406.82 1700.93 3392.82 1708.31C3379.09 1715.43 3362.8 1718.99 3343.98 1718.99ZM3537.65 1541.54V1657.93C3537.65 1665.82 3539.43 1671.54 3542.99 1675.11C3546.81 1678.41 3553.17 1680.07 3562.07 1680.07H3588.79V1716.32H3554.44C3534.85 1716.32 3519.84 1711.74 3509.41 1702.58C3498.98 1693.42 3493.77 1678.54 3493.77 1657.93V1541.54H3468.96V1506.05H3493.77V1453.77H3537.65V1506.05H3588.79V1541.54H3537.65ZM3614.38 1610.23C3614.38 1589.12 3618.71 1570.42 3627.36 1554.14C3636.26 1537.85 3648.22 1525.26 3663.23 1516.36C3678.49 1507.2 3695.28 1502.62 3713.6 1502.62C3730.13 1502.62 3744.51 1505.93 3756.72 1512.54C3769.19 1518.9 3779.11 1526.91 3786.49 1536.58V1506.05H3830.37V1716.32H3786.49V1685.03C3779.11 1694.95 3769.06 1703.22 3756.34 1709.83C3743.62 1716.45 3729.12 1719.75 3712.84 1719.75C3694.77 1719.75 3678.24 1715.17 3663.23 1706.02C3648.22 1696.6 3636.26 1683.63 3627.36 1667.09C3618.71 1650.3 3614.38 1631.35 3614.38 1610.23ZM3786.49 1611C3786.49 1596.49 3783.43 1583.9 3777.33 1573.22C3771.48 1562.53 3763.72 1554.39 3754.05 1548.79C3744.38 1543.2 3733.95 1540.4 3722.76 1540.4C3711.56 1540.4 3701.13 1543.2 3691.47 1548.79C3681.8 1554.14 3673.91 1562.15 3667.81 1572.83C3661.95 1583.27 3659.03 1595.73 3659.03 1610.23C3659.03 1624.73 3661.95 1637.45 3667.81 1648.39C3673.91 1659.33 3681.8 1667.73 3691.47 1673.58C3701.39 1679.18 3711.82 1681.97 3722.76 1681.97C3733.95 1681.97 3744.38 1679.18 3754.05 1673.58C3763.72 1667.98 3771.48 1659.84 3777.33 1649.16C3783.43 1638.22 3786.49 1625.5 3786.49 1611ZM3972.23 1502.62C3988.51 1502.62 4002.88 1505.93 4015.35 1512.54C4028.07 1518.9 4037.99 1526.91 4045.11 1536.58V1506.05H4089V1719.75C4089 1739.09 4084.93 1756.26 4076.79 1771.27C4068.65 1786.54 4056.82 1798.49 4041.3 1807.14C4026.03 1815.79 4007.72 1820.12 3986.35 1820.12C3957.85 1820.12 3934.19 1813.37 3915.37 1799.89C3896.54 1786.66 3885.86 1768.6 3883.31 1745.7H3926.43C3929.74 1756.64 3936.74 1765.42 3947.42 1772.03C3958.36 1778.9 3971.34 1782.34 3986.35 1782.34C4003.9 1782.34 4018.02 1776.99 4028.7 1766.31C4039.64 1755.62 4045.11 1740.11 4045.11 1719.75V1684.65C4037.74 1694.57 4027.69 1702.96 4014.97 1709.83C4002.5 1716.45 3988.25 1719.75 3972.23 1719.75C3953.91 1719.75 3937.12 1715.17 3921.85 1706.02C3906.84 1696.6 3894.89 1683.63 3885.98 1667.09C3877.33 1650.3 3873.01 1631.35 3873.01 1610.23C3873.01 1589.12 3877.33 1570.42 3885.98 1554.14C3894.89 1537.85 3906.84 1525.26 3921.85 1516.36C3937.12 1507.2 3953.91 1502.62 3972.23 1502.62ZM4045.11 1611C4045.11 1596.49 4042.06 1583.9 4035.96 1573.22C4030.1 1562.53 4022.34 1554.39 4012.68 1548.79C4003.01 1543.2 3992.58 1540.4 3981.39 1540.4C3970.19 1540.4 3959.76 1543.2 3950.09 1548.79C3940.43 1554.14 3932.54 1562.15 3926.43 1572.83C3920.58 1583.27 3917.66 1595.73 3917.66 1610.23C3917.66 1624.73 3920.58 1637.45 3926.43 1648.39C3932.54 1659.33 3940.43 1667.73 3950.09 1673.58C3960.02 1679.18 3970.45 1681.97 3981.39 1681.97C3992.58 1681.97 4003.01 1679.18 4012.68 1673.58C4022.34 1667.98 4030.1 1659.84 4035.96 1649.16C4042.06 1638.22 4045.11 1625.5 4045.11 1611ZM4338.85 1606.03C4338.85 1613.92 4338.34 1621.04 4337.32 1627.4H4176.67C4177.94 1644.2 4184.17 1657.68 4195.37 1667.86C4206.56 1678.03 4220.3 1683.12 4236.58 1683.12C4259.98 1683.12 4276.52 1673.32 4286.19 1653.74H4333.13C4326.77 1673.07 4315.19 1688.97 4298.4 1701.44C4281.86 1713.65 4261.26 1719.75 4236.58 1719.75C4216.48 1719.75 4198.42 1715.3 4182.39 1706.4C4166.62 1697.24 4154.15 1684.52 4144.99 1668.24C4136.09 1651.7 4131.64 1632.62 4131.64 1611C4131.64 1589.37 4135.96 1570.42 4144.61 1554.14C4153.52 1537.6 4165.85 1524.88 4181.63 1515.98C4197.66 1507.07 4215.97 1502.62 4236.58 1502.62C4256.42 1502.62 4274.1 1506.94 4289.62 1515.59C4305.14 1524.24 4317.23 1536.46 4325.88 1552.23C4334.53 1567.75 4338.85 1585.68 4338.85 1606.03ZM4293.44 1592.3C4293.18 1576.27 4287.46 1563.42 4276.27 1553.75C4265.07 1544.09 4251.21 1539.25 4234.67 1539.25C4219.66 1539.25 4206.81 1544.09 4196.13 1553.75C4185.44 1563.17 4179.08 1576.02 4177.05 1592.3H4293.44Z" fill="#777E91" />
+    </g>
+  </g>
+</svg>

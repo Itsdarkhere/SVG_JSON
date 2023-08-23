@@ -1,10 +1,10 @@
 'use client'
-import * as PIXI from 'pixi.js';
 import styles from './page.module.css'
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
-import { Stage, Sprite } from "@pixi/react";
-import dynamic from 'next/dynamic';
+import map from "../../public/map.svg";
+import Image from 'next/image';
+import { parse } from 'path/posix';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -97,178 +97,246 @@ export default function Home() {
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files ? event.target.files[0] : null;
-
-      if (file) {
-        const reader = new FileReader();
-        reader.readAsText(file);
-        reader.onload = (e: ProgressEvent<FileReader>) => {
-          const svgString = e.target?.result as string;
-          const parser = new DOMParser();
-          const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
-          const sections = svgDoc.querySelectorAll('g[id^="Sec-"]');
-
-          // Store stuff in these
-          const sectionData: { [key: string]: SectionData } = {};
-          const rowData: { [key: string]: RowData } = {};
-          const seatData: { [key: string]: SeatData } = {};
-          // RowNumber is unreliable, so create our own
-          let uniqueRowNumber = 0;
-
-          sections.forEach((section, i) => {
-            const sectionNumber = section.getAttribute('id')?.split('-')[1];
-            const zoomable = section.getAttribute('class');
-            const fill = section.getAttribute('fill');
-            const stroke = section.getAttribute('stroke');
-            const strokeWidth = section.getAttribute('stroke-width');
-
-            // Check if section is zoomable, if yes then we need seats etc, otherwise we dont
-            // In that case we add ticket directly to section
-            let isZoomable = false;
-            if (zoomable === 'YZ') {
-              isZoomable = true;
-            }
-
-            const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
-            const rows = section.querySelectorAll(`g[id^="sec-${sectionNumber}-row-"]`);
-
-            // Identifier is like the text above a section
-            const identifier = section.querySelector(`g[id^="identifier"]`);
-            const identifierText = identifier?.querySelector('path');
-            const identifierTextPath = identifierText?.getAttribute('d') || null;
-            const identifierTextFill = identifierText?.getAttribute('fill') || null;
-            const identifierTextOpacity = identifierText?.getAttribute('fill-opacity') || null;
-
-            const sectionRows: string[] = [];
-
-            if (isZoomable) {
-              rows.forEach((row, ii) => {
-                uniqueRowNumber++;
-                const rowNumber = row.getAttribute('id')?.split('-')[3];
-                const seats = row.querySelectorAll(`rect[id^="sec-${sectionNumber}-row-${rowNumber}-seat-"]`);
-                let rowSeats: string[] = [];
-                if (uniqueRowNumber) sectionRows.push(uniqueRowNumber.toString());
-
-  
-                seats.forEach((seat, iii) => {
-                  const id = seat.getAttribute('id');
-                  if (id) {
-                    const cx = parseFloat(seat.getAttribute('x') || '0');
-                    const cy = parseFloat(seat.getAttribute('y') || '0');
-                    const w = parseFloat(seat.getAttribute('width') || '0');
-                    const h = parseFloat(seat.getAttribute('height') || '0');
-                    seatData[id] = { cx, cy, w, h, selected: false, seatId: id, sectionId: sectionNumber!, rowId: uniqueRowNumber.toString()! };
-                    rowSeats.push(id);
-                  }
-                })
-  
-                let rowId = `${uniqueRowNumber}`;
-                let ticket = {
-                  availableCount: 12,
-                  cost: 60,
-                  description: 'VJX IS SEXY',
-                  eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
-                  fee: 2,
-                  generalAdmission: true,
-                  hide_description: false,
-                  hide_sale_dates: false,
-                  id: uniqueRowNumber.toString(),
-                  isActive: true,
-                  locked: null,
-                  maximum_quantity: 3,
-                  minimum_quantity: 1,
-                  name: '',
-                  on_sale_status: 'available',
-                  pricing: {
-                    feesWithoutTax: 5.3,
-                    listing: false,
-                    paymentProcessingFee: 3.3,
-                    serviceFees: 0,
-                    taxPerTicket: 5.52,
-                    ticketCost: 60,
-                    ticketCostWithFees: 62,
-                    ticketCostWithFeesAndTax: 70.82,
-                    ticketFacilityFee: 2,
-                    ticketName: `Section ${sectionNumber} Row ${rowId}`,
-                    ticketType: 'Standard Ticket',
-                    totalFees: 10.82,
-                  },
-                  resale: false,
-                  royalty: 5,
-                  sales_end: '2023-04-09T02:00:00.000Z',
-                  sales_start: '2023-01-12T15:30:00.000Z',
-                  slug: null,
-                  ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
-                  uuid: 'b9261819-a184-4a95-a22d-337df5154'
-                };
-  
-                rowData[rowId] = { rowId, sectionId: sectionNumber!, seats: rowSeats, ticket, path: undefined };
-                rowSeats = [];
-              })
-            }
-
-            let sectionTicket = null;
-            if (!isZoomable) {
-              sectionTicket = {
-                availableCount: 12,
-                cost: 60,
-                description: 'VJX IS SEXY',
-                eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
-                fee: 2,
-                generalAdmission: true,
-                hide_description: false,
-                hide_sale_dates: false,
-                id: sectionNumber,
-                isActive: true,
-                locked: null,
-                maximum_quantity: 3,
-                minimum_quantity: 1,
-                name: '',
-                on_sale_status: 'available',
-                pricing: {
-                  feesWithoutTax: 5.3,
-                  listing: false,
-                  paymentProcessingFee: 3.3,
-                  serviceFees: 0,
-                  taxPerTicket: 5.52,
-                  ticketCost: 60,
-                  ticketCostWithFees: 62,
-                  ticketCostWithFeesAndTax: 70.82,
-                  ticketFacilityFee: 2,
-                  ticketName: `Section ${sectionNumber}`,
-                  ticketType: 'Standard Ticket',
-                  totalFees: 10.82,
-                },
-                resale: false,
-                royalty: 5,
-                sales_end: '2023-04-09T02:00:00.000Z',
-                sales_start: '2023-01-12T15:30:00.000Z',
-                slug: null,
-                ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
-                uuid: 'b9261819-a184-4a95-a22d-337df5154'
-              }
-            }
-            sectionData[sectionNumber!] = { 
-              sectionId: sectionNumber, 
-              path: sectionPath, 
-              rows: sectionRows, 
-              zoomable: isZoomable, 
-              ticket: sectionTicket, 
-              fill, stroke, strokeWidth,
-              identifier: {
-                path: identifierTextPath,
-                fill: identifierTextFill,
-                opacity: identifierTextOpacity,
-              }  
-            }
-          });
-        // TODO add this as a check on the 'designer comments'
-        setRowArea({
-          sections: sectionData,
-          rows: rowData,
-          seats: seatData,
-        });
+    if (file) {
+      const reader = new FileReader();
+      reader.readAsText(file);
+      reader.onload = (e: ProgressEvent<FileReader>) => {
+        console.log("onload");
+        const svgString = e.target?.result as string;
+        const parsedData = parseSVG(svgString);
+        setRowArea(parsedData);
       }
     }
+  }
+
+  const parseSVG = (svgString: string) => {
+    const parser = new DOMParser();
+    const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
+    const sections = svgDoc.querySelectorAll('g[id^="Sec-"]');
+
+    let uniqueRowNumber = 0;
+    const sectionData: { [key: string]: SectionData } = {};
+    const rowData: { [key: string]: RowData } = {};
+    const seatData: { [key: string]: SeatData } = {};
+
+    sections.forEach((section) => {
+      let combinedData = undefined;
+      const sectionInfo = parseSection(section);
+      if (sectionInfo.isZoomable) {
+        if (sectionInfo.rows.length > 0) {
+          const rowsData = parseRows(sectionInfo, uniqueRowNumber);
+          uniqueRowNumber += rowsData.newUniqueRowNumber;
+          Object.assign(rowData, rowsData.rowData);
+          Object.assign(seatData, rowsData.seatData);
+        } else {
+          // If no rows are found, look for direct seats
+          uniqueRowNumber++;
+          combinedData = parseSeatsWithVirtualRowData(uniqueRowNumber, sectionInfo.seats, sectionInfo);
+          Object.assign(seatData, combinedData.seatData);
+          rowData[combinedData.virtualRowData.rowId] = combinedData.virtualRowData;
+        }
+      }
+
+      let sectionRowsArray = [];
+
+      if (combinedData?.virtualRowData?.rowId) {
+        sectionRowsArray.push(combinedData.virtualRowData.rowId);
+      } else {
+        sectionRowsArray = Object.keys(sectionInfo.rows);
+      }
+
+      sectionData[sectionInfo.sectionNumber!] = generateSectionData(sectionInfo, sectionRowsArray);
+    });
+  
+    return { sections: sectionData, rows: rowData, seats: seatData };
+  }
+
+  const parseSection = (section: Element) => {
+    const sectionNumber = section.getAttribute('id')?.split('-')[1];
+    const zoomable = section.getAttribute('class');
+    const fill = section.getAttribute('fill');
+    const stroke = section.getAttribute('stroke');
+    const strokeWidth = section.getAttribute('stroke-width');
+
+    // Check if section is zoomable, if yes then we need seats etc, otherwise we dont
+    // In that case we add ticket directly to section
+    let isZoomable = false;
+    if (zoomable === 'YZ') {
+      isZoomable = true;
+    }
+
+    const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
+    const rows = section.querySelectorAll(`g[id^="sec-${sectionNumber}-row-"]`);
+    // If no rows find seats directly
+    let seats = undefined;
+    if (rows.length === 0) {
+      seats = section.querySelectorAll(`rect[id^="sec-${sectionNumber}-seat-"]`);
+    }
+
+    // Identifier is like the text above a section
+    const identifier = section.querySelector(`g[id^="identifier"]`);
+    const identifierText = identifier?.querySelector('path');
+    const identifierTextPath = identifierText?.getAttribute('d') || null;
+    const identifierTextFill = identifierText?.getAttribute('fill') || null;
+    const identifierTextOpacity = identifierText?.getAttribute('fill-opacity') || null;
+
+    return {
+      sectionNumber,
+      zoomable,
+      fill,
+      stroke,
+      strokeWidth,
+      isZoomable,
+      sectionPath,
+      rows,
+      seats,
+      identifierTextPath,
+      identifierTextFill,
+      identifierTextOpacity,
+    }
+  }
+
+  const parseSeat = (seat: Element) => {
+    const cx = parseFloat(seat.getAttribute('x') || '0');
+    const cy = parseFloat(seat.getAttribute('y') || '0');
+    const w = parseFloat(seat.getAttribute('width') || '0');
+    const h = parseFloat(seat.getAttribute('height') || '0');
+
+    return {
+      cx,
+      cy,
+      w,
+      h,
+    }
+  }
+
+  const createTicket = (id: string, ticketName: string) => {
+    return {
+      availableCount: 12,
+      cost: 60,
+      description: 'VJX IS SEXY',
+      eventId: '6c109ea3-23c2-4fa9-82ce-79346043a9a0',
+      fee: 2,
+      generalAdmission: true,
+      hide_description: false,
+      hide_sale_dates: false,
+      id,
+      isActive: true,
+      locked: null,
+      maximum_quantity: 3,
+      minimum_quantity: 1,
+      name: '',
+      on_sale_status: 'available',
+      pricing: {
+        feesWithoutTax: 5.3,
+        listing: false,
+        paymentProcessingFee: 3.3,
+        serviceFees: 0,
+        taxPerTicket: 5.52,
+        ticketCost: 60,
+        ticketCostWithFees: 62,
+        ticketCostWithFeesAndTax: 70.82,
+        ticketFacilityFee: 2,
+        ticketName,
+        ticketType: 'Standard Ticket',
+        totalFees: 10.82,
+      },
+      resale: false,
+      royalty: 5,
+      sales_end: '2023-04-09T02:00:00.000Z',
+      sales_start: '2023-01-12T15:30:00.000Z',
+      slug: null,
+      ticketGroup: 'b9261819-a184-4a95-a22d-337df5154',
+      uuid: 'b9261819-a184-4a95-a22d-337df5154'
+    }
+  }
+
+  const parseRows = (sectionInfo: any, uniqueRowNumber: number) => {
+    const sectionRows: string[] = [];
+    const rowData: { [key: string]: RowData } = {};
+    const seatData: { [key: string]: SeatData } = {};
+  
+    sectionInfo.rows.forEach((row: any) => {
+      uniqueRowNumber++;
+      const rowId = `${uniqueRowNumber}`;
+      sectionRows.push(rowId);
+      const seatsData = parseSeats(row, sectionInfo, uniqueRowNumber);
+      const ticket = createTicket(rowId, `Section ${sectionInfo.sectionNumber} Row ${rowId}`);
+      rowData[rowId] = { rowId, sectionId: sectionInfo.sectionNumber!, seats: seatsData.seatIds, ticket, path: undefined };
+      Object.assign(seatData, seatsData.seatData);
+    });
+  
+    return { rowData, seatData, newUniqueRowNumber: uniqueRowNumber };
+  };
+
+  const parseSeatsWithVirtualRowData = (uniqueRowNumber: number,seats: any, sectionInfo: any) => {
+    const seatData: { [key: string]: SeatData } = {};
+    const rowId = uniqueRowNumber.toString();
+
+    seats.forEach((seat: any) => {
+        const id = seat.getAttribute('id');
+        if (id) {
+            const seatInfo = parseSeat(seat);
+            seatData[id] = { 
+                cx: seatInfo.cx, 
+                cy: seatInfo.cy, 
+                w: seatInfo.w, 
+                h: seatInfo.h, 
+                selected: false, 
+                seatId: id, 
+                sectionId: sectionInfo.sectionNumber!,
+                rowId: rowId  // Assigning the rowId
+            };
+        }
+    });
+
+    const ticket = createTicket(rowId, `Section ${sectionInfo.sectionNumber} Row ${rowId}`);
+    const virtualRowData = {
+        rowId,
+        sectionId: sectionInfo.sectionNumber!,
+        seats: Object.keys(seatData),
+        ticket,
+        path: undefined // No specific path for the virtual row
+    };
+
+    return { seatData, virtualRowData };
+  };
+
+  const parseSeats = (row: Element, sectionInfo: any, uniqueRowNumber: number) => {
+    const rowNumber = row.getAttribute('id')?.split('-')[3];
+    const seats = row.querySelectorAll(`rect[id^="sec-${sectionInfo.sectionNumber}-row-${rowNumber}-seat-"]`);
+    
+    const seatData: { [key: string]: SeatData } = {};
+    const seatIds: string[] = [];
+  
+    seats.forEach((seat) => {
+      const id = seat.getAttribute('id');
+      if (id) {
+        const seatInfo = parseSeat(seat);
+        seatData[id] = { cx: seatInfo.cx, cy: seatInfo.cy, w: seatInfo.w, h: seatInfo.h, selected: false, seatId: id, sectionId: sectionInfo.sectionNumber!, rowId: uniqueRowNumber.toString()! };
+        seatIds.push(id);
+      }
+    });
+  
+    return { seatData, seatIds };
+  };
+
+  const generateSectionData = (sectionInfo: any, rows: string[]) => {
+    return {
+      sectionId: sectionInfo.sectionNumber,
+      path: sectionInfo.sectionPath,
+      rows: rows,
+      zoomable: sectionInfo.isZoomable,
+      ticket: sectionInfo.ticket,
+      fill: sectionInfo.fill,
+      stroke: sectionInfo.stroke,
+      strokeWidth: sectionInfo.strokeWidth,
+      identifier: {
+        path: sectionInfo.identifierTextPath,
+        fill: sectionInfo.identifierTextFill,
+        opacity: sectionInfo.identifierTextOpacity,
+      }
+    };
   };
 
   const setRowArea = (data: Data) => {
@@ -319,10 +387,13 @@ export default function Home() {
   const getFoundSections = () => {
     return (
       Object.values(result.sections).map((sectionData, i) => {
-        const totalSeats = sectionData.rows.reduce((acc, rowId) => {
-          const row = result.rows[rowId];
-          return acc + row.seats.length;
-        }, 0);
+        let totalSeats = 0;
+        if (sectionData.rows.length !== 0) {
+          // totalSeats = sectionData.rows.reduce((acc, rowId) => {
+          //   const row = result.rows[rowId];
+          //   return acc + row.seats.length;
+          // }, 0);
+        }
         return (
           <div key={i} className={styles.secinfo}>
             <p>SectionId: {sectionData.sectionId}</p>
@@ -346,9 +417,6 @@ export default function Home() {
     downloadAnchorNode.remove();
   }
 
-  // Pixijs
-  const Viewport = dynamic(() => import('../../components/Viewport'), { ssr: false });
-
   return (
     <main className={`${styles.main} ${inter.className}`}>
       <div className={styles.mainTwo}>
@@ -370,16 +438,6 @@ export default function Home() {
           JSON entire result
           <p className={styles.jsonexplainer}>If theres something weird in the &quot;condensed information&quot; you can have a closer look here</p>
         </div>
-        <Stage width={800} height={500} options={{ backgroundColor: 0xeef1f5, eventMode: 'none' }}>
-          <Viewport width={800} height={500}>
-            <Sprite
-              image="https://pixijs.io/pixi-react/img/bunny.png"
-              x={400}
-              y={270}
-              anchor={{ x: 0.5, y: 0.5 }}
-            />
-          </Viewport>
-        </Stage>
         <pre className={styles.jsonres}>{JSON.stringify(result, null, 2)}</pre>
       </div>
     </main>
