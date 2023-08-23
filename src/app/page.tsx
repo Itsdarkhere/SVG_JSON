@@ -126,12 +126,14 @@ export default function Home() {
         if (sectionInfo.rows.length > 0) {
           const rowsData = parseRows(sectionInfo, uniqueRowNumber);
           uniqueRowNumber += rowsData.newUniqueRowNumber;
+          // Assign
           Object.assign(rowData, rowsData.rowData);
           Object.assign(seatData, rowsData.seatData);
         } else {
-          // If no rows are found, look for direct seats
           uniqueRowNumber++;
+          // If no rows are found, look for direct seats
           combinedData = parseSeatsWithVirtualRowData(uniqueRowNumber, sectionInfo.seats, sectionInfo);
+          // Assign
           Object.assign(seatData, combinedData.seatData);
           rowData[combinedData.virtualRowData.rowId] = combinedData.virtualRowData;
         }
@@ -161,8 +163,11 @@ export default function Home() {
     // Check if section is zoomable, if yes then we need seats etc, otherwise we dont
     // In that case we add ticket directly to section
     let isZoomable = false;
+    let sectionTicket = null;
     if (zoomable === 'YZ') {
       isZoomable = true;
+    } else {
+      sectionTicket = createTicket(sectionNumber!, `Section ${sectionNumber}`);
     }
 
     const sectionPath = section.querySelector('path')?.getAttribute('d') || null;
@@ -190,6 +195,7 @@ export default function Home() {
       sectionPath,
       rows,
       seats,
+      ticket: sectionTicket,
       identifierTextPath,
       identifierTextFill,
       identifierTextOpacity,
@@ -322,6 +328,7 @@ export default function Home() {
   };
 
   const generateSectionData = (sectionInfo: any, rows: string[]) => {
+    console.log("GENERATESECTIONDATA")
     return {
       sectionId: sectionInfo.sectionNumber,
       path: sectionInfo.sectionPath,
